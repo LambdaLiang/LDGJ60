@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8ca03ff6c3b81428622f2f530e3941, type: 3}
   m_Name: book_ 7
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
-  book_index: 0
+  book_index: 7
   book_title: Small-Town Conversations
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 108
