@@ -216,11 +216,7 @@ SpriteRenderer:
   m_Size: {x: 0.38, y: 1.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 0
-=======
   m_WasSpriteAssigned: 1
->>>>>>> origin/main
   m_SpriteSortPoint: 0
 --- !u!4 &49924219
 Transform:
@@ -231,9 +227,6 @@ Transform:
   m_GameObject: {fileID: 49924216}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 1.623, y: -1.739, z: 0}
-=======
   m_LocalPosition: {x: -2.127, y: -1.739, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -326,7 +319,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: -0.06, z: 0}
->>>>>>> origin/main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -406,11 +398,7 @@ SpriteRenderer:
   m_Size: {x: 0.38, y: 1.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 0
-=======
   m_WasSpriteAssigned: 1
->>>>>>> origin/main
   m_SpriteSortPoint: 0
 --- !u!4 &348492840
 Transform:
@@ -421,11 +409,7 @@ Transform:
   m_GameObject: {fileID: 348492838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -0.05, y: -0.0039, z: 0}
-=======
   m_LocalPosition: {x: 2.83, y: -0.0039, z: 0}
->>>>>>> origin/main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -568,8 +552,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1213994534
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +916,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> origin/main
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -942,11 +923,8 @@ SceneRoots:
   - {fileID: 605253320}
   - {fileID: 49924219}
   - {fileID: 348492840}
-<<<<<<< HEAD
-=======
   - {fileID: 1568175005}
   - {fileID: 1430390578}
   - {fileID: 1213994536}
   - {fileID: 165357474}
   - {fileID: 1247853076}
->>>>>>> origin/main
