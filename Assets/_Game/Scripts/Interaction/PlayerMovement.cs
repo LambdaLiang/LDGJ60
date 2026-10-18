@@ -4,10 +4,15 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 4f;
+    public bool InputBlocked { get; set; }
 
     // Update is called once per frame
     void Update()
     {
+        if (InputBlocked)
+        {
+            return;
+        }
         Keyboard keyboard = Keyboard.current;
 
         float direction = 0f;

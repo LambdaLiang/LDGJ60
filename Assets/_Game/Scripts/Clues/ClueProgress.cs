@@ -57,4 +57,39 @@ public class ClueProgress : MonoBehaviour
             ClueCollected?.Invoke(clue);
         }
     }
+
+    [ContextMenu("Check Duplicate Clue IDs")]
+    private void CheckDuplicateClueIds()
+    {
+        var seen = new Dictionary<int, ClueDefinition>();
+        bool foundDuplicate = false;
+
+        foreach (ClueDefinition clue in clues)
+        {
+            if (clue == null)
+            {
+                continue;
+            }
+
+            if (seen.TryGetValue(clue.clue_index, out ClueDefinition first))
+            {
+                foundDuplicate = true;
+
+                Debug.LogError(
+                    $"Duplicate clue ID {clue.clue_index}: " +
+                    $"{first.name} and {clue.name}",
+                    clue
+                );
+            }
+            else
+            {
+                seen.Add(clue.clue_index, clue);
+            }
+        }
+
+        if (!foundDuplicate)
+        {
+            Debug.Log("No duplicate IDs in this clue list.", this);
+        }
+    }
 }

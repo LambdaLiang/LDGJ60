@@ -15,6 +15,6 @@ MonoBehaviour:
   book_index: 2
   book_title: Encyclopedia
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: 102
+  book_clue_index: 103
   content: The book about bioology knowledges.
   clue_content: 'Reveals a clue requiring clue 101. '

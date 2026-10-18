@@ -12,8 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_bug
   m_EditorClassIdentifier: Assembly-CSharp::NewScriptableObjectScript
-  clue_index: 101
+  clue_index: 102
   clue_type: 0
   clue_title: Bug clue
-  phone_message: The clue about bugs, everyone loves this idea
-  prerequisite_clue_indices: 
+  phone_message: 'The clue about bugs, everyone loves this idea
+
+    Test Long text
+
+    Test
+    Long text
+
+    Test Long text
+
+    Test Long text
+
+    Test Long text'
+  prerequisite_clue_indices: 65000000
+  clue_code: 

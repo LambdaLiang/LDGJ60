@@ -15,6 +15,6 @@ MonoBehaviour:
   book_index: 4
   book_title: Oldest book
   book_color: {r: 0.4491988, g: 0.20652366, b: 0.8584906, a: 1}
-  book_clue_index: 103
+  book_clue_index: 104
   content: 'General info '
   clue_content: Clue info

@@ -12,8 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_encyclopedia
   m_EditorClassIdentifier: Assembly-CSharp::NewScriptableObjectScript
-  clue_index: 102
+  clue_index: 103
   clue_type: 0
   clue_title: The encyclopedia
-  phone_message: Encyclopedia about nature and biology. Bugs lead us here
-  prerequisite_clue_indices: 65000000
+  phone_message: 'Encyclopedia about nature and biology. Bugs lead us here
+
+    Test
+    Long text
+
+    Test Long text
+
+    Test Long text
+
+    Test Long text
+
+    Test
+    Long text
+
+    Test Long text
+
+    Test Long text
+
+    Test Long text
+
+    Test
+    Long text
+
+    Test Long text'
+  prerequisite_clue_indices: 6500000066000000
+  clue_code: 
