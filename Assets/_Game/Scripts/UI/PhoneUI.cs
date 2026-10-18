@@ -67,9 +67,10 @@ public class PhoneUI : MonoBehaviour
             RefreshHistory();
             return;
         }
+        string heading = clueProgress.GetDisplayTitle(clue);
 
         notificationText.text =
-            $"New clue: {clue.clue_title}\nClick to read";
+            $"New clue: {heading}\nClick to read";
 
         notificationPanel.SetActive(true);
         phoneButtonImage.color = unreadColor;
@@ -105,7 +106,8 @@ public class PhoneUI : MonoBehaviour
         {
             ClueDefinition clue = history[i];
 
-            text.AppendLine($"{i + 1}. {clue.clue_title}");
+            string heading = clueProgress.GetDisplayTitle(clue);
+            text.AppendLine($"{i + 1}. {heading}");
             text.AppendLine(clue.phone_message);
             text.AppendLine();
         }

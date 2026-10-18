@@ -19,7 +19,7 @@ public class ClueDefinition : ScriptableObject
 
     public ClueType clue_type;
 
-    public string clue_title;
+    // public string clue_title;
 
     [TextArea(5, 15)]
     public string phone_message;
@@ -27,4 +27,6 @@ public class ClueDefinition : ScriptableObject
     [Tooltip("All listed clues must be recognized first. Leave empty for no prerequisites.")]
     public int[] prerequisite_clue_indices = new int[0];
 
+    [Tooltip("Designer-facing code, such as M1 or S1.")]
+    public string clue_code;
 }

@@ -11,6 +11,7 @@ public class BookshelfInteraction : MonoBehaviour
     [SerializeField] private float interactionDistance = 2f;
     private bool playerWasNearby;
     private bool isOpen;
+    public bool InputBlocked { get; set; }
 
     private void Awake()
     {
@@ -27,6 +28,11 @@ public class BookshelfInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (InputBlocked)
+        {
+            return;
+        }
+
         Keyboard keyboard = Keyboard.current;
         if (isOpen)
         {
