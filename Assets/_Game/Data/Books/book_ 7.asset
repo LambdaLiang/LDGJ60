@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: book_ 7
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: Small-Town Conversations
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 108
+  content: "This book collects scattered local reporters\u2019 interviews with residents."
+  clue_content: "In a section featuring local painters, an unnamed woman talks about
+    her unhappy early life. She left her rain-soaked hometown for this remote, sunlit
+    little city. She had spent her life painting sunsets, and after hearing that
+    the eastern mountains offered the finest views, she rode her bicycle there to
+    see for herself.\n\u201CIf I could,\u201D she said, \u201CI would love to dive
+    into and touch such radiant sunlight one day.\u201D"

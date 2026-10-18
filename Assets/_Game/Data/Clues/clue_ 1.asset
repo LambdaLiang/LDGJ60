@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_ 1
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
-  clue_index: 0
+  clue_index: 101
   clue_type: 0
   clue_title: 
-  phone_message: 
+  phone_message: A women dead at the foot of a mountain with a bicycle, surrounded
+    by pale purple flowers. I should try to find some information about this mountain
+    and this flower.
   prerequisite_clue_indices: 

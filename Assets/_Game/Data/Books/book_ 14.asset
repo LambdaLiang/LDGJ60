@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: book_ 14
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: Unofficial Histories of Southwest
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 115
+  content: A collection of folk legends and strange customs from southwest.
+  clue_content: "Somewhere in the southwest lies a village hidden from the world
+    for generations. Few can find it\u2014and those who do can never leave! Its inhabitants
+    secretly cultivate an unnatural creature: a flower by day, an insect by night.
+    With it, they can control a person\u2019s limbs, slowly stripping away their
+    will."

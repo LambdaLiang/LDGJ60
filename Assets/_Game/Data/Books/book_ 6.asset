@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: book_ 6
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: The Adventure Journal of Photographer Sun
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 107
+  content: This book chronicles the adventures of a photographer around the world.
+  clue_content: "In one story, Sun writes:\n\u201COf all the eastern mountains, The
+    Suncradle Mountain is my favorite. A cliff juts out from its slopes, and when
+    you watch the sunset from there, the sun seems close enough to touch. It\u2019s
+    the most beautiful sunset I\u2019ve ever seen.\n\u201CMany local painters come
+    here to sketch. Once, I saw a reporter interviewing a woman painter. She looked
+    so happy. She must have loved the place too.\u201D"

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8ca03ff6c3b81428622f2f530e3941, type: 3}
   m_Name: book_ 2
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
-  book_index: 0
-  book_title: 
+  book_index: 2
+  book_title: The Flower Arranging Handbook
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 103
+  content: This book elaborates on the strengths and limitations of different flowers
+    in flower arrangemengs using beautiful photographs.
+  clue_content: "Flower Choosing Tips:\nEmberbloom:\nEmberbloom has a beautiful color
+    gradient that changes over time. \nArtists and writers are often drawn to its
+    symbolism.\n "

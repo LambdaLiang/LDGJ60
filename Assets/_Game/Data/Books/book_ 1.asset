@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8ca03ff6c3b81428622f2f530e3941, type: 3}
   m_Name: book_ 1
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
-  book_index: 0
-  book_title: 
+  book_index: 1
+  book_title: The Plant Encyclopedia
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
+  book_clue_index: 102
   content: 
-  clue_content: 
+  clue_content: 'EMBERBLOOM
+
+    Family: Emberaceae
+
+    Genus: Vesperanthus
+
+    Description:
+    Its flowers are deep purple when they first open, gradually fading to pale purple.
+
+
+    This
+    description sounds similar. Maybe I should look for some pictures.'

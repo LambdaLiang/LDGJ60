@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: book_ 13
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: The Beauty of Southwest
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 114
+  content: "This book offers a comprehensive overview of southwest\u2019s culture
+    and scenery."
+  clue_content: "A distinctive plant Anthophasma vespertinum grows in the region.
+    Its petals resemble insect limbs and change shape in response to temperature
+    and sunlight. Dried specimens are used in traditional medicine and are a local
+    specialty.\nMany villages depend on cultivating this flower for their livelihood.
+    Rising prices in recent years have attracted newcomers hoping to establish themselves
+    in the local \u201Cinsect medicine\u201D trade."

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_ 12
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
-  clue_index: 0
-  clue_type: 0
+  clue_index: 112
+  clue_type: 1
   clue_title: 
-  phone_message: 
+  phone_message: "Heartbinder\u2026 Where did they find that out? I should look into
+    it too."
   prerequisite_clue_indices: 

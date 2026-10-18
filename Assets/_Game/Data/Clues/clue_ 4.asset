@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_ 4
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
-  clue_index: 0
+  clue_index: 104
   clue_type: 0
   clue_title: 
-  phone_message: 
-  prerequisite_clue_indices: 
+  phone_message: A flower of courage, blooming for the sun and fading by the sun,
+    simply to back in the radiance of life.
+  prerequisite_clue_indices: 67000000

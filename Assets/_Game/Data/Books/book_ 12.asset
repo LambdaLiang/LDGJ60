@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: book_ 12
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: The Insect Encyclopedia
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 113
+  content: "This book covers thousands of insect species. Without knowing what to
+    look for, I\u2019d better not read it page by page."
+  clue_content: "HEARTBINDER (Common Name)\nScientific Name: Anthophasma vespertinum\nFamily:
+    Anthophasmatidae\nGenus: Anthophasma\nDistribution: Southwestern China\nDescription:
+    A small, dark brown insect with slender limbs. Known locally as the \u201CHeartbinder\u201D."

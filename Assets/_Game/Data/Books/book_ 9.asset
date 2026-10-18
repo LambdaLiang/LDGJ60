@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: book_ 9
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: The Southern Forest Murders, Volumes 2
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
-  content: 
-  clue_content: 
+  book_clue_index: 110
+  content: This seems to be part of a mystery adventure series. Maybe I should look
+    for the earlier volumes.
+  clue_content: story to be added

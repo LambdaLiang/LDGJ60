@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf873f8b84341d54a883d63e7858a928, type: 3}
   m_Name: clue_ 13
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
-  clue_index: 0
-  clue_type: 0
+  clue_index: 113
+  clue_type: 2
   clue_title: 
-  phone_message: 
-  prerequisite_clue_indices: 
+  phone_message: The Heartbinder, scientifically known as Anthophasma vespertinum,
+    is found in southwest.
+  prerequisite_clue_indices: 70000000
