@@ -10,10 +10,12 @@ public class BookDefinition : ScriptableObject
     public int book_index;
     // The actual book title shown to player
     public string book_title;
-    // TODO: change color in engine? on art asset?
+    // Designer assign color to book
     public Color book_color = Color.white;
     [Tooltip("-1 means this book has no associated clue.")]
     public int book_clue_index = -1;
     [TextArea(5, 15)]
     public string content;
+    [TextArea(5, 15)]
+    public string clue_content;
 }

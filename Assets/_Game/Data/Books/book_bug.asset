@@ -16,4 +16,5 @@ MonoBehaviour:
   book_title: Book about Bugs
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 101
-  content: Reveals the introductory clue. The book of bugs.
+  content: Reveal the clue of bug
+  clue_content: Reveal the clue of bug
