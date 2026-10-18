@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8ca03ff6c3b81428622f2f530e3941, type: 3}
+  m_Name: book_ 18
+  m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
+  book_index: 18
+  book_title: "Story Time, Issue 10 \u2014 Late May 2000"
+  book_color: {r: 1, g: 1, b: 1, a: 1}
+  book_clue_index: -1
+  content: 
+  clue_content: "2 Jokes:\nThe Power of Prayer\nTom complained to a friend, \u201CWhat
+    good is prayer? My son wants a bicycle for Christmas, but I can\u2019t afford
+    one. I prayed all night, and there\u2019s still no bicycle!\u201D\n\u201CYou\u2019re
+    going about it the wrong way,\u201D his friend said. \u201CSteal a bicycle for
+    your son first. Then pray for forgiveness.\u201D\n\nFather Knows Best\n\u201CGood
+    heavens!\u201D his wife shouted furiously. \u201CYour son has smashed the piano
+    to pieces!\u201D\nHer husband replied calmly, \u201CI told you he\u2019d make
+    a better blacksmith than a pianist.\u201D"

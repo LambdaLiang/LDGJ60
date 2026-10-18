@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8ca03ff6c3b81428622f2f530e3941, type: 3}
+  m_Name: book_ 16
+  m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
+  book_index: 16
+  book_title: For Whom Did the Roses Bloom That Night?
+  book_color: {r: 1, g: 1, b: 1, a: 1}
+  book_clue_index: 116
+  content: 
+  clue_content: "This seems like a terribly dull romance novel. Wait\u2026\nSomeone
+    has scribbled a note on one of the pages:\n\n\u201CLinda, are you reading this?
+    Their story makes me miss you more than ever. I miss the days when we read A
+    Veil of Dreams, a Lifetime of Love together. You\u2019d write a line, then I\u2019d
+    write one back. We spoke to each other through the pages.\u201D"
