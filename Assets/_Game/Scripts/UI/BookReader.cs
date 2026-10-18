@@ -33,7 +33,7 @@ public class BookReader : MonoBehaviour
             if (!string.IsNullOrWhiteSpace(book.clue_content))
             {
                 contentText.text = book.clue_content;
-                clueProgress.CollectClue(clue);
+                clueProgress.CollectClue(clue, book);
             }
             else
             {

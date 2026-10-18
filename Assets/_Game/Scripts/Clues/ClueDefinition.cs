@@ -19,7 +19,7 @@ public class ClueDefinition : ScriptableObject
 
     public ClueType clue_type;
 
-    public string clue_title;
+    // public string clue_title;
 
     [TextArea(5, 15)]
     public string phone_message;

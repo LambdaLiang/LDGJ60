@@ -10,6 +10,7 @@ public class ClueProgress : MonoBehaviour
     private readonly List<ClueDefinition> collectionHistory = new List<ClueDefinition>();
     public event Action<ClueDefinition> ClueCollected;
     public IReadOnlyList<ClueDefinition> CollectionHistory => collectionHistory;
+    private readonly Dictionary<int, BookDefinition> sourceBooks = new Dictionary<int, BookDefinition>();
 
     public ClueDefinition GetAvailableClue(int clueIndex)
     {
@@ -42,21 +43,43 @@ public class ClueProgress : MonoBehaviour
         return null;
     }
 
-    public void CollectClue(ClueDefinition clue)
+    public void CollectClue(ClueDefinition clue, BookDefinition sourceBook = null)
     {
-        if (clue == null || GetAvailableClue(clue.clue_index) != clue)
+        if (clue == null ||
+            GetAvailableClue(clue.clue_index) != clue)
         {
             return;
         }
 
         if (collectedClues.Add(clue.clue_index))
         {
-            // To record the order of finding clues
+            sourceBooks[clue.clue_index] = sourceBook;
             collectionHistory.Add(clue);
-            Debug.Log($"Collected clue: {clue.clue_title}");
+
+            Debug.Log($"Collected clue: {GetDisplayTitle(clue)}");
+
             ClueCollected?.Invoke(clue);
         }
     }
+
+    public string GetDisplayTitle(ClueDefinition clue)
+    {
+        if (clue == null)
+        {
+            return string.Empty;
+        }
+
+        if (sourceBooks.TryGetValue(
+                clue.clue_index,
+                out BookDefinition book) &&
+            book != null)
+        {
+            return book.book_title;
+        }
+
+        return "A Mystery from the Newspaper";
+    }
+
 
     [ContextMenu("Check Duplicate Clue IDs")]
     private void CheckDuplicateClueIds()
