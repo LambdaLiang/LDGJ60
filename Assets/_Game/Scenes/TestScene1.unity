@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 155999733}
   - component: {fileID: 155999732}
   m_Layer: 5
-  m_Name: book_bug_button
+  m_Name: book_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
         m_MethodName: OpenBook
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f67de1cffd3a6ac4dadb1be857265af5, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: b499b2d0c4520df47b92e8fc3f594541, type: 2}
           m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bug Book
+  m_text: The Plant Encyclopedia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1501,9 +1501,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClueProgress
   clues:
-  - {fileID: 11400000, guid: 76d3d5ab6be77ac48bc554b2e14001a4, type: 2}
-  - {fileID: 11400000, guid: 2bdf22dac3eaa29449705d84bb72d2d9, type: 2}
-  - {fileID: 11400000, guid: acc0edfed13e25348be0737907696c95, type: 2}
+  - {fileID: 11400000, guid: 2fd09ba011e07464793a22ef703fc539, type: 2}
+  - {fileID: 11400000, guid: ffd93ee1661169d42b54ae6b861c2e9e, type: 2}
+  - {fileID: 11400000, guid: 0df4398c6d01c2741bbc7aeeacd5db96, type: 2}
+  - {fileID: 11400000, guid: 05a962f6cd3e1f948b7b88b3eeef9a5b, type: 2}
+  - {fileID: 11400000, guid: 33f7d12146db66045ab41a6e563b560e, type: 2}
+  - {fileID: 11400000, guid: 3681a46edbf4a024c9fc6425ab7a7ca4, type: 2}
+  - {fileID: 11400000, guid: 0cc301e7d80da2a46bed8be2dcf51956, type: 2}
+  - {fileID: 11400000, guid: ff53115428eddc1488c3e56d589e27b1, type: 2}
+  - {fileID: 11400000, guid: 7d761bb4d69190947b85fc96dec1955f, type: 2}
+  - {fileID: 11400000, guid: d0405d7a2c2be6f47bf835ad94ed6908, type: 2}
+  - {fileID: 11400000, guid: 9819eab26792aa24082600adc68c0453, type: 2}
+  - {fileID: 11400000, guid: 1737bb9b079c3d8459d3ee6e25f84d16, type: 2}
+  - {fileID: 11400000, guid: 7a7f201b55117064f8885b18e677a19d, type: 2}
+  - {fileID: 11400000, guid: c41ef7d202999c042b241e57037a543f, type: 2}
+  - {fileID: 11400000, guid: a037b804f2a07b140af5caa295b171d9, type: 2}
+  - {fileID: 11400000, guid: 60dd98323fa2fc34082dcbe14e92f5d9, type: 2}
+  - {fileID: 11400000, guid: e95489810ac33be4f8598d308037141c, type: 2}
 --- !u!4 &509319681
 Transform:
   m_ObjectHideFlags: 0
@@ -2506,7 +2520,7 @@ GameObject:
   - component: {fileID: 966260968}
   - component: {fileID: 966260967}
   m_Layer: 5
-  m_Name: book_tiger_button
+  m_Name: book_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2581,7 +2595,7 @@ MonoBehaviour:
         m_MethodName: OpenBook
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: ee06880038fea0b4584681e3353d75e3, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 54e26551570b87b45bc26deb03c9668d, type: 2}
           m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2808,7 +2822,7 @@ GameObject:
   - component: {fileID: 1077135598}
   - component: {fileID: 1077135597}
   m_Layer: 5
-  m_Name: book_encyclopedia_button
+  m_Name: book_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2883,7 +2897,7 @@ MonoBehaviour:
         m_MethodName: OpenBook
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 0695944b683d4f6478a7e50d3a8a626c, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 8c06983c568519c40932162ff2f1c3c6, type: 2}
           m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4456,7 +4470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Encyclopedia
+  m_text: The Flower Arranging Handbook
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5042,7 +5056,7 @@ MonoBehaviour:
 
     Click or press E to begin searching.'
   clueProgress: {fileID: 509319680}
-  openingClue: {fileID: 11400000, guid: acc0edfed13e25348be0737907696c95, type: 2}
+  openingClue: {fileID: 11400000, guid: 2fd09ba011e07464793a22ef703fc539, type: 2}
 --- !u!4 &1848693136
 Transform:
   m_ObjectHideFlags: 0
@@ -5115,7 +5129,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tiger Book
+  m_text: An Introduction to Famous Mountains
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
