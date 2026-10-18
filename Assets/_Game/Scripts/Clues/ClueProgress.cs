@@ -9,6 +9,7 @@ public class ClueProgress : MonoBehaviour
     private readonly HashSet<int> collectedClues = new HashSet<int>();
     private readonly List<ClueDefinition> collectionHistory = new List<ClueDefinition>();
     public event Action<ClueDefinition> ClueCollected;
+    public IReadOnlyList<ClueDefinition> CollectionHistory => collectionHistory;
 
     public ClueDefinition GetAvailableClue(int clueIndex)
     {
