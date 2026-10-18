@@ -15,7 +15,7 @@ MonoBehaviour:
   book_index: 0
   book_title: For Whom Did the Roses Bloom That Night?
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
+  book_clue_index: 116
   content: 
   clue_content: "This seems like a terribly dull romance novel. Wait\u2026\nSomeone
     has scribbled a note on one of the pages:\n\n\u201CLinda, are you reading this?

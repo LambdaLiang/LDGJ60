@@ -15,7 +15,7 @@ MonoBehaviour:
   book_index: 0
   book_title: A Veil of Dreams, a Lifetime of Love
   book_color: {r: 1, g: 1, b: 1, a: 1}
-  book_clue_index: -1
+  book_clue_index: 117
   content: "Such a boring romance novel. Who even reads this stuff\u2026?"
   clue_content: "However, if I look through it carefully\u2026\n\nPage 5:\n\u201CGary,
     this sounds just like us.\u201D\n\u2014 \u201CIt does, Linda. This book is practically

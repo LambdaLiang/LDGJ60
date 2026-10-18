@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: book_ 19
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 0
-  book_title: 
+  book_title: Neck and Shoulder Relief Guide
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: -1
   content: 
-  clue_content: 
+  clue_content: 'Been Sitting Too Long? Try This Quick Neck and Shoulder Relaxation
+    Tip!
+
+    1. Sit upright with your arms relaxed.
+
+    2. Slowly lift your shoulders
+    toward your ears.
+
+    3. Roll them backward, gently drawing your shoulder blades
+    together.
+
+    4. Lower your shoulders and relax. Repeat 5 times.'
