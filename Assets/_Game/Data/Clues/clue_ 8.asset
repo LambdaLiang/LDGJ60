@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 108
   clue_type: 0
-  clue_title: 
   phone_message: Flew into the Sunset.
   prerequisite_clue_indices: 6b000000
+  clue_code: 
+  phone_parent_clue_index: 107
+  phone_display_order: 0

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 107
   clue_type: 0
-  clue_title: 
   phone_message: Sun mentioned that he had seen a local reporter interviewing a painter
     on that mountain.
   prerequisite_clue_indices: 6a000000
+  clue_code: 
+  phone_parent_clue_index: 106
+  phone_display_order: 0
