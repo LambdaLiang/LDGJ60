@@ -11,9 +11,19 @@ public class CameraController : MonoBehaviour
 
     private Camera cam;
 
-    void Start()
+    void Awake()
     {
         cam = GetComponent<Camera>();
+
+        if (cam == null || !cam.orthographic)
+        {
+            Debug.LogError("CameraController requires an orthographic Camera.", this);
+            enabled = false;
+            return;
+        }
+
+        // Follow in world space without inheriting the player's movement.
+        transform.SetParent(null, true);
     }
 
     void LateUpdate()
@@ -28,11 +38,11 @@ public class CameraController : MonoBehaviour
         float rightLimit = maxX - halfWidth;
 
         // Follow player on X axis only
-        float targetX = Mathf.Clamp(
-            player.position.x,
-            leftLimit,
-            rightLimit
-        );
+        // Hold at an edge until the player crosses the camera center again.
+        // If the viewport is wider than the level, keep it centered on the level.
+        float targetX = leftLimit <= rightLimit
+            ? Mathf.Clamp(player.position.x, leftLimit, rightLimit)
+            : (minX + maxX) * 0.5f;
 
         // Keep Y and Z unchanged
         transform.position = new Vector3(
