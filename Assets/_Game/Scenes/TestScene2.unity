@@ -2457,7 +2457,7 @@ Transform:
   m_GameObject: {fileID: 197440825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.49, y: 0.75, z: -10}
+  m_LocalPosition: {x: 1.36, y: 0.75, z: -10}
   m_LocalScale: {x: 1.4285713, y: 0.83333325, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4047,8 +4047,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0.0000076293945}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.5218048, y: 0.0000076293945}
+  m_SizeDelta: {x: -24.7012, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463347917
 MonoBehaviour:
@@ -5447,7 +5447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6503,7 +6503,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 1321594802}
   interactionArea: {fileID: 0}
-  backgroundBlurMaterial: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 2100000, guid: 5bbc07b709570114394228731570e46a, type: 2}
 --- !u!212 &816551854
 SpriteRenderer:
   serializedVersion: 2
@@ -7044,7 +7044,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 705109557}
   interactionArea: {fileID: 0}
-  backgroundBlurMaterial: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 2100000, guid: 5bbc07b709570114394228731570e46a, type: 2}
 --- !u!212 &906695562
 SpriteRenderer:
   serializedVersion: 2
@@ -9513,7 +9513,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 563634390}
   interactionArea: {fileID: 0}
-  backgroundBlurMaterial: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 2100000, guid: 5bbc07b709570114394228731570e46a, type: 2}
 --- !u!212 &1119652532
 SpriteRenderer:
   serializedVersion: 2
@@ -9746,8 +9746,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 227.89, y: -139.17499}
-  m_SizeDelta: {x: 311.78, y: 116.813}
+  m_AnchoredPosition: {x: 264.8519, y: -139.17499}
+  m_SizeDelta: {x: 385.7039, y: 116.813}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145346183
 MonoBehaviour:
@@ -11273,7 +11273,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 1467089485}
   interactionArea: {fileID: 0}
-  backgroundBlurMaterial: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 2100000, guid: 5bbc07b709570114394228731570e46a, type: 2}
 --- !u!212 &1295578738
 SpriteRenderer:
   serializedVersion: 2
@@ -12015,7 +12015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00091552734}
+  m_AnchoredPosition: {x: 0, y: 0.00074768066}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1340525659
@@ -12240,7 +12240,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 172236331}
   interactionArea: {fileID: 0}
-  backgroundBlurMaterial: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 2100000, guid: 5bbc07b709570114394228731570e46a, type: 2}
 --- !u!212 &1366444625
 SpriteRenderer:
   serializedVersion: 2
@@ -14541,7 +14541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.1000061, y: -86.9}
+  m_AnchoredPosition: {x: -0.1000061, y: -74}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1595810017
@@ -14564,10 +14564,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collected Clues
+  m_text: MEMO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
+  m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14591,8 +14591,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15953,7 +15953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: 0}
+  m_AnchoredPosition: {x: 336, y: 4}
   m_SizeDelta: {x: 166, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777579718
@@ -16289,7 +16289,7 @@ Transform:
   m_GameObject: {fileID: 1822666267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.29, y: -0.653, z: 0}
+  m_LocalPosition: {x: -4.999, y: -0.653, z: 0}
   m_LocalScale: {x: 0.7, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16622,13 +16622,13 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1145346181}
   dialogueText: {fileID: 463347917}
   dialoguePages:
-  - (check your phone or click here to continue)
-  - "There\u2019s no follow-up. "
+  - (check your phone and click here to continue)
+  - "There\u2019s no follow-up of this case. "
   - "Maybe they ruled it an accident because they couldn\u2019t identify her and
     no family came forward?"
   - 'The flowers sound unusual.  '
-  - "I should also look into mountains around here that are popular with hikers or
-    cyclists.\u201D"
+  - I should also look into mountains around here that are popular with hikers or
+    cyclists.
   - (Find books in the library that catches your interest!)
   clueProgress: {fileID: 509319680}
   openingClue: {fileID: 11400000, guid: 2fd09ba011e07464793a22ef703fc539, type: 2}
@@ -17358,7 +17358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sdhgahdkajhlksaclkda
+  m_text: diufsskdafnfknknfksnknnnfffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -17367,8 +17367,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4291348680
+  m_fontColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17385,8 +17385,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17395,10 +17395,10 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 4
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -11.7
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -17424,7 +17424,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -2.0889587, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

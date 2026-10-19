@@ -15,6 +15,7 @@ public class PhoneUI : MonoBehaviour
 
     [SerializeField] private GameObject historyPanel;
     [SerializeField] private TMP_Text historyText;
+    [SerializeField] private ReadingTracker readingTracker;
 
     private readonly Color idleColor = Color.white;
     private readonly Color unreadColor =
@@ -78,7 +79,8 @@ public class PhoneUI : MonoBehaviour
     public void OpenHistory()
     {
         RefreshHistory();
-
+        if (readingTracker != null)
+            readingTracker.RefreshText();
         historyPanel.SetActive(true);
         notificationPanel.SetActive(false);
         phoneButtonImage.color = idleColor;
@@ -124,7 +126,11 @@ public class PhoneUI : MonoBehaviour
         string heading = clueProgress.GetDisplayTitle(clue);
 
         text.Append($"<indent={indentation}>");
-        text.AppendLine($"<b>{heading}</b>");
+        if (depth == 0)
+        {
+            text.AppendLine("<color=#CE8787>New Story!</color>");
+        }
+        text.AppendLine($"<size=36><i><color=#738795>{heading}</color></i></size>");
         text.AppendLine(clue.phone_message);
         text.AppendLine("</indent>");
         text.AppendLine();
