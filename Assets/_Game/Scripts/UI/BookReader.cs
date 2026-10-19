@@ -3,6 +3,8 @@ using TMPro;
 
 public class BookReader : MonoBehaviour
 {
+    public event System.Action BookClosed;
+
     [SerializeField] private GameObject bookPanel;
     [SerializeField] private TMP_Text titleText;
     [SerializeField] private TMP_Text contentText;
@@ -54,12 +56,15 @@ public class BookReader : MonoBehaviour
 
     public void CloseBook()
     {
-        if (bookPanel != null)
-        {
-            bookPanel.SetActive(false);
-        }
-        audioManager.PlayPuttingBookBack();
-        print("close book");
+        if (bookPanel == null || !bookPanel.activeSelf)
+            return;
+
+        bookPanel.SetActive(false);
+
+        if (audioManager != null)
+            audioManager.PlayPuttingBookBack();
+
+        BookClosed?.Invoke();
     }
 
     private void OnDisable()
