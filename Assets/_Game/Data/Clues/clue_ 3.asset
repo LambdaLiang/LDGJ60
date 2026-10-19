@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 103
   clue_type: 0
-  clue_title: 
   phone_message: Emberbloom flowers fade more quickly when exposed to sunlight.
   prerequisite_clue_indices: 66000000
+  clue_code: 
+  phone_parent_clue_index: 102
+  phone_display_order: 0

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 105
   clue_type: 0
-  clue_title: 
   phone_message: The easten mountains are especially popular for sightseeing, photography
     and sketching.
   prerequisite_clue_indices: 65000000
+  clue_code: 
+  phone_parent_clue_index: 101
+  phone_display_order: 1

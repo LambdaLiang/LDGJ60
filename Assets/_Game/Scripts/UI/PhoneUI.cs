@@ -89,26 +89,120 @@ public class PhoneUI : MonoBehaviour
         historyPanel.SetActive(false);
     }
 
+    private int ComparePhoneOrder(
+        ClueDefinition first,
+        ClueDefinition second)
+    {
+        int comparison = first.phone_display_order.CompareTo(
+            second.phone_display_order
+        );
+
+        if (comparison != 0)
+        {
+            return comparison;
+        }
+
+        // Equal display orders get a predictable tie-breaker.
+        return first.clue_index.CompareTo(second.clue_index);
+    }
+
+    private void AppendClueBranch(
+        ClueDefinition clue,
+        int depth,
+        List<ClueDefinition> sortedClues,
+        HashSet<int> displayedIds,
+        StringBuilder text)
+    {
+        if (!displayedIds.Add(clue.clue_index))
+        {
+            return;
+        }
+
+        int indentation = depth * 16;
+        string heading = clueProgress.GetDisplayTitle(clue);
+
+        text.Append($"<indent={indentation}>");
+        text.AppendLine($"<b>{heading}</b>");
+        text.AppendLine(clue.phone_message);
+        text.AppendLine("</indent>");
+        text.AppendLine();
+
+        foreach (ClueDefinition child in sortedClues)
+        {
+            if (child.phone_parent_clue_index == clue.clue_index)
+            {
+                AppendClueBranch(
+                    child,
+                    depth + 1,
+                    sortedClues,
+                    displayedIds,
+                    text
+                );
+            }
+        }
+    }
     private void RefreshHistory()
     {
-        IReadOnlyList<ClueDefinition> history = clueProgress.CollectionHistory;
+        List<ClueDefinition> sortedClues = new List<ClueDefinition>();
 
-        if (history.Count == 0)
+        foreach (ClueDefinition clue in clueProgress.CollectionHistory)
+        {
+            if (clue != null)
+            {
+                sortedClues.Add(clue);
+            }
+        }
+
+        if (sortedClues.Count == 0)
         {
             historyText.text = "No clues collected yet.";
             return;
         }
 
+        sortedClues.Sort(ComparePhoneOrder);
+
+        HashSet<int> collectedIds = new HashSet<int>();
+
+        foreach (ClueDefinition clue in sortedClues)
+        {
+            collectedIds.Add(clue.clue_index);
+        }
+
+        HashSet<int> displayedIds = new HashSet<int>();
         StringBuilder text = new StringBuilder();
 
-        for (int i = 0; i < history.Count; i++)
+        // Begin with roots, or clues whose display parent
+        // has not been collected.
+        foreach (ClueDefinition clue in sortedClues)
         {
-            ClueDefinition clue = history[i];
+            int parentId = clue.phone_parent_clue_index;
 
-            string heading = clueProgress.GetDisplayTitle(clue);
-            text.AppendLine($"{i + 1}. {heading}");
-            text.AppendLine(clue.phone_message);
-            text.AppendLine();
+            if (parentId < 0 || !collectedIds.Contains(parentId))
+            {
+                AppendClueBranch(
+                    clue,
+                    0,
+                    sortedClues,
+                    displayedIds,
+                    text
+                );
+            }
+        }
+
+        // Keep collected clues visible even if someone
+        // accidentally creates a circular layout.
+        foreach (ClueDefinition clue in sortedClues)
+        {
+            if (!displayedIds.Contains(clue.clue_index))
+            {
+                AppendClueBranch(
+                    clue,
+                    0,
+                    sortedClues,
+                    displayedIds,
+                    text
+                );
+            }
         }
 
         historyText.text = text.ToString();

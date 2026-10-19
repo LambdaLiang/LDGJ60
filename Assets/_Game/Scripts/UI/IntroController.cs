@@ -8,8 +8,7 @@ public class IntroController : MonoBehaviour
     private enum IntroState
     {
         WaitingForStart,
-        OpeningDialogue,
-        FollowupDialogue,
+        Dialogue,
         Finishing,
         Complete
     }
@@ -22,48 +21,53 @@ public class IntroController : MonoBehaviour
     [Header("Dialogue")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
-
     [TextArea(3, 10)]
-    [SerializeField] private string openingText;
-
-    [TextArea(3, 10)]
-    [SerializeField] private string followupText;
+    [SerializeField] private string[] dialoguePages = new string[0];
 
     [Header("Opening clue")]
     [SerializeField] private ClueProgress clueProgress;
     [SerializeField] private ClueDefinition openingClue;
+    [Tooltip("Page number, starting at 1. Award M1 when this page is dismissed.")]
+    [SerializeField, Min(1)] private int collectClueAfterPage = 3;
+
+    [Header("Phone visibility")]
+    [SerializeField] private CanvasGroup phoneGroup;
 
     private IntroState state;
+    private int pageIndex;
     private int lastAdvanceFrame = -1;
 
     private void Start()
     {
-        if (startPanel == null ||
-            playerMovement == null ||
-            bookshelfInteraction == null ||
-            dialoguePanel == null ||
-            dialogueText == null ||
-            clueProgress == null ||
-            openingClue == null)
+        if (startPanel == null || playerMovement == null ||
+            bookshelfInteraction == null || dialoguePanel == null ||
+            dialogueText == null || clueProgress == null ||
+            openingClue == null || phoneGroup == null)
         {
             Debug.LogError("Assign all intro references.", this);
             enabled = false;
             return;
         }
 
-        state = IntroState.WaitingForStart;
+        if (dialoguePages == null || dialoguePages.Length == 0 ||
+            collectClueAfterPage < 1 || collectClueAfterPage > dialoguePages.Length)
+        {
+            Debug.LogError("Add dialogue pages and choose a valid clue-award page.", this);
+            enabled = false;
+            return;
+        }
 
+        state = IntroState.WaitingForStart;
         startPanel.SetActive(true);
         dialoguePanel.SetActive(false);
         SetInputBlocked(true);
+        SetPhoneVisible(false);
     }
 
     private void Update()
     {
         Keyboard keyboard = Keyboard.current;
-
-        if (keyboard != null &&
-            keyboard.eKey.wasPressedThisFrame)
+        if (keyboard != null && keyboard.eKey.wasPressedThisFrame)
         {
             AdvanceDialogue();
         }
@@ -71,52 +75,36 @@ public class IntroController : MonoBehaviour
 
     public void BeginGame()
     {
-        if (state != IntroState.WaitingForStart)
-        {
-            return;
-        }
+        if (state != IntroState.WaitingForStart) return;
 
-        state = IntroState.OpeningDialogue;
+        state = IntroState.Dialogue;
+        pageIndex = 0;
         lastAdvanceFrame = Time.frameCount;
-
         startPanel.SetActive(false);
-        dialogueText.text = openingText;
+        dialogueText.text = dialoguePages[pageIndex];
         dialoguePanel.SetActive(true);
     }
 
     public void AdvanceDialogue()
     {
-        if (state != IntroState.OpeningDialogue &&
-            state != IntroState.FollowupDialogue)
-        {
-            return;
-        }
-
-        if (lastAdvanceFrame == Time.frameCount)
-        {
-            return;
-        }
-
+        if (state != IntroState.Dialogue || lastAdvanceFrame == Time.frameCount) return;
         lastAdvanceFrame = Time.frameCount;
 
-        if (state == IntroState.OpeningDialogue)
+        if (pageIndex + 1 == collectClueAfterPage)
         {
-            if (clueProgress.GetAvailableClue(
-                    openingClue.clue_index) != openingClue)
+            if (clueProgress.GetAvailableClue(openingClue.clue_index) != openingClue)
             {
-                Debug.LogError(
-                    "The opening clue must be registered " +
-                    "and have no unmet prerequisites.",
-                    this
-                );
-
+                Debug.LogError("Register the opening clue and check its prerequisites.", this);
                 return;
             }
 
             clueProgress.CollectClue(openingClue);
+        }
 
-            state = IntroState.FollowupDialogue;
-            dialogueText.text = followupText;
+        pageIndex++;
+        if (pageIndex < dialoguePages.Length)
+        {
+            dialogueText.text = dialoguePages[pageIndex];
         }
         else
         {
@@ -128,30 +116,32 @@ public class IntroController : MonoBehaviour
     {
         state = IntroState.Finishing;
         dialoguePanel.SetActive(false);
-
-        // Keep the final E press from opening the shelf.
         yield return null;
 
+        SetPhoneVisible(true);
         SetInputBlocked(false);
         state = IntroState.Complete;
     }
 
+    private void SetPhoneVisible(bool visible)
+    {
+        if (phoneGroup == null) return;
+
+        phoneGroup.alpha = visible ? 1f : 0f;
+        phoneGroup.interactable = visible;
+        phoneGroup.blocksRaycasts = visible;
+    }
+
     private void SetInputBlocked(bool blocked)
     {
-        if (playerMovement != null)
-        {
-            playerMovement.InputBlocked = blocked;
-        }
-
-        if (bookshelfInteraction != null)
-        {
-            bookshelfInteraction.InputBlocked = blocked;
-        }
+        if (playerMovement != null) playerMovement.InputBlocked = blocked;
+        if (bookshelfInteraction != null) bookshelfInteraction.InputBlocked = blocked;
     }
 
     private void OnDisable()
     {
         StopAllCoroutines();
         SetInputBlocked(false);
+        SetPhoneVisible(true);
     }
 }

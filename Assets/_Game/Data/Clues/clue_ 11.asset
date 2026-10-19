@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 111
   clue_type: 2
-  clue_title: 
   phone_message: The Southern Forest Murders, Volumes 3
   prerequisite_clue_indices: 6e000000
+  clue_code: 
+  phone_parent_clue_index: 110
+  phone_display_order: 0
