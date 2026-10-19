@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 109
   clue_type: 1
-  clue_title: 
-  phone_message: The Southern Forest Murders, Volumes 1
+  phone_message: A telephone operator calls an impossible number and reaches a woman
+    seeking help from the future.
   prerequisite_clue_indices: 
+  clue_code: 
+  phone_parent_clue_index: -1
+  phone_display_order: 0

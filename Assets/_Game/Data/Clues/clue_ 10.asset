@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 110
   clue_type: 2
-  phone_message: The Southern Forest Murders, Volumes 2
+  phone_message: "With the future\u2019s digital memory offline, Mara helps the woman
+    discover how to read a forgotten novel."
   prerequisite_clue_indices: 6d000000
   clue_code: 
   phone_parent_clue_index: 109

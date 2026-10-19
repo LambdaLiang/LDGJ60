@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: book_ 9
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 9
-  book_title: The Southern Forest Murders, Volumes 2
+  book_title: The First Line
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 110
-  content: This seems to be part of a mystery adventure series. Maybe I should look
-    for the earlier volumes.
-  clue_content: story to be added
+  content: This seems to be part of a mystery series. Maybe I should look for the
+    earlier volumes.
+  clue_content: "\u201CThe public memory has been down for eleven days,\u201D the
+    woman said. \u201CWe found these things in storage. Hundreds of sheets, fastened
+    along one edge.\u201D\r\n\u201CBooks?\u201D\r\n\u201CPossibly. Can you help with
+    the first one?\u201D\r\nMara fetched a pencil.\r\n\u201C\u2018Call me Ishmael.\u2019
+    Is that an instruction?\u201D\r\n\u201CSomeone\u2019s introducing himself.\u201D\r\n\u201CWho?
+    And there is a brown mark of moon on the surface.\u201D\r\n\u201CKeep reading.\u201D\r\nThe
+    woman read slowly. Outside the exchange, the milk lorry rattled past.\r\n\u201CWhen
+    does it reach the information?\u201D she asked.\r\nMara settled into her chair.
+    \u201CThere\u2019s no hurry.\u201D"

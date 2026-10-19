@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 111
   clue_type: 2
-  phone_message: The Southern Forest Murders, Volumes 3
+  phone_message: "Recognizing the woman\u2019s book as her own, Mara preserves her
+    novels and leaves instructions for the call she has already answered."
   prerequisite_clue_indices: 6e000000
   clue_code: 
   phone_parent_clue_index: 110

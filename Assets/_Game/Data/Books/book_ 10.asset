@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: book_ 10
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 10
-  book_title: The Southern Forest Murders, Volumes 3
+  book_title: The Collection
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 111
-  content: This seems to be part of a mystery adventure series. Maybe I should look
-    for the earlier volumes.
-  clue_content: story to be added
+  content: This seems to be part of a mystery series. Maybe I should look for the
+    earlier volumes.
+  clue_content: "Near dawn, the woman laughed.\r\n\u201CThe man thinks going to sea
+    will improve his mood.\u201D\r\n\u201CDoes it?\u201D\r\n\u201CI haven\u2019t
+    got that far.\u201D\r\nShe asked Mara\u2019s name for the record. The line went
+    dead before Mara could answer.\r\nAt home, Mara opened her copy of Moby-Dick.
+    Beside the first sentence was a small coffee stain.\r\nMara packed it with her
+    other novels. Inside she placed a notebook, a telephone number, and the words:\r\nAfter
+    midnight. Ask her to stay."

@@ -2152,7 +2152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Southern Forest Murders, Volumes 3
+  m_text: The Collection
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -6503,6 +6503,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 1321594802}
   interactionArea: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 0}
 --- !u!212 &816551854
 SpriteRenderer:
   serializedVersion: 2
@@ -7043,6 +7044,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 705109557}
   interactionArea: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 0}
 --- !u!212 &906695562
 SpriteRenderer:
   serializedVersion: 2
@@ -9126,7 +9128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Southern Forest Murders, Volumes 1
+  m_text: The Extra Page
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -9511,6 +9513,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 563634390}
   interactionArea: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 0}
 --- !u!212 &1119652532
 SpriteRenderer:
   serializedVersion: 2
@@ -11270,6 +11273,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 1467089485}
   interactionArea: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 0}
 --- !u!212 &1295578738
 SpriteRenderer:
   serializedVersion: 2
@@ -12236,6 +12240,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1822666268}
   bookshelfPanel: {fileID: 172236331}
   interactionArea: {fileID: 0}
+  backgroundBlurMaterial: {fileID: 0}
 --- !u!212 &1366444625
 SpriteRenderer:
   serializedVersion: 2
@@ -14865,7 +14870,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Southern Forest Murders, Volumes 2
+  m_text: The First Line
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
