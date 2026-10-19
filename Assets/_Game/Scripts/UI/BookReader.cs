@@ -12,6 +12,8 @@ public class BookReader : MonoBehaviour
 
     [SerializeField] private AudioManager audioManager;
 
+    [SerializeField] private ReadingTracker readingTracker;
+
     private void Awake()
     {
         if (bookPanel != null)
@@ -33,6 +35,7 @@ public class BookReader : MonoBehaviour
 
         // Ordinary content (without clue)
         contentText.text = book.content;
+        bool countsAsRead = book.book_clue_index == -1;
 
         ClueDefinition clue = clueProgress.GetAvailableClue(book.book_clue_index);
         if (clue != null)
@@ -41,6 +44,7 @@ public class BookReader : MonoBehaviour
             {
                 contentText.text = book.clue_content;
                 clueProgress.CollectClue(clue, book);
+                countsAsRead = true;
             }
             else
             {
@@ -50,6 +54,10 @@ public class BookReader : MonoBehaviour
 
 
         bookPanel.SetActive(true);
+        if (countsAsRead && readingTracker != null)
+        {
+            readingTracker.MarkRead(book);
+        }
         audioManager.PlayOpeningBook();
     }
 

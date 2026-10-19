@@ -16,7 +16,9 @@ MonoBehaviour:
   book_title: 'A Comprehensive Photographic Collection: Animal Droppings'
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: -1
-  content: 
+  content: This beautifully bound book documents the many shapes of animal droppings
+    found in nature. Some are cube-shaped, others triangular. Penguins can produce
+    pink poop. Some fish even excrete the sand that helps form beaches!
   clue_content: This beautifully bound book documents the many shapes of animal droppings
     found in nature. Some are cube-shaped, others triangular. Penguins can produce
     pink poop. Some fish even excrete the sand that helps form beaches!

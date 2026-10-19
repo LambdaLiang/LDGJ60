@@ -15,6 +15,7 @@ public class PhoneUI : MonoBehaviour
 
     [SerializeField] private GameObject historyPanel;
     [SerializeField] private TMP_Text historyText;
+    [SerializeField] private ReadingTracker readingTracker;
 
     private readonly Color idleColor = Color.white;
     private readonly Color unreadColor =
@@ -78,7 +79,8 @@ public class PhoneUI : MonoBehaviour
     public void OpenHistory()
     {
         RefreshHistory();
-
+        if (readingTracker != null)
+            readingTracker.RefreshText();
         historyPanel.SetActive(true);
         notificationPanel.SetActive(false);
         phoneButtonImage.color = idleColor;
