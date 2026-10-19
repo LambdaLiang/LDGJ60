@@ -14,4 +14,12 @@ public class GameAudioDefinition : ScriptableObject
 
     [Header("Clues")]
     public AudioClip unlocking_clue;
+    public AudioClip typing_clue;
+
+    [Header("Phone")]
+    public AudioClip open_and_close_phone;
+
+    [Header("UI")]
+    public AudioClip UI_button_click;
+
 }

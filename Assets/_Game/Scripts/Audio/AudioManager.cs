@@ -50,7 +50,21 @@ public class AudioManager : MonoBehaviour
     {
         if (audioDefinition != null)
             PlaySfx(audioDefinition.unlocking_clue);
+            PlaySfx(audioDefinition.typing_clue);
     }
+
+    public void PlayPhoneOpeningClosing()
+    {
+        if (audioDefinition != null)
+            PlaySfx(audioDefinition.open_and_close_phone);
+    }
+
+    public void PlayUIButtonClick()
+    {
+        if (audioDefinition != null)
+            PlaySfx(audioDefinition.UI_button_click);
+    }
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

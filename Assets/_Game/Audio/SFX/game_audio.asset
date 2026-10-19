@@ -17,4 +17,7 @@ MonoBehaviour:
   opening_book: {fileID: 8300000, guid: 819f2a6a486c6f9498eba098ec6f976d, type: 3}
   closing_book: {fileID: 8300000, guid: f19e099eb001c2047894389b810a82cd, type: 3}
   putting_book_back: {fileID: 8300000, guid: 9f10ba3cf17241744af4bc7b98b18657, type: 3}
-  unlocking_clue: {fileID: 8300000, guid: 0b91d76a521c9b44abf86d445f0916c5, type: 3}
+  unlocking_clue: {fileID: 8300000, guid: b7374a72ae27ca349af596620832d5f3, type: 3}
+  typing_clue: {fileID: 8300000, guid: 50be100b7f1f2f7438318bee0bc0fb94, type: 3}
+  open_and_close_phone: {fileID: 8300000, guid: d204eb6d1a4746743891cbd353a189e4, type: 3}
+  UI_button_click: {fileID: 8300000, guid: 0936fcbde12a1e845aaa03f7d4c20e7a, type: 3}

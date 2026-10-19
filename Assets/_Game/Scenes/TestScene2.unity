@@ -7642,6 +7642,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 371251676}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayUIButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &998610000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14922,6 +14934,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
+  characterSprite: {fileID: 0}
+  spriteFacesRight: 1
 --- !u!212 &1822666269
 SpriteRenderer:
   serializedVersion: 2
@@ -15317,14 +15331,13 @@ MonoBehaviour:
   bookshelfInteraction: {fileID: 906695561}
   dialoguePanel: {fileID: 1145346181}
   dialogueText: {fileID: 463347917}
-  openingText: I was reading newspaper, and found this weird note asking me to investigate
-    a strange insect. The library;s collection might explain what it is.
-  followupText: 'A book about bugs would be a good place to start. I should check
-    the shelves.
-
-    Click or press E to begin searching.'
+  dialoguePages:
+  - AAA
+  - BBB
   clueProgress: {fileID: 509319680}
   openingClue: {fileID: 11400000, guid: 2fd09ba011e07464793a22ef703fc539, type: 2}
+  collectClueAfterPage: 3
+  phoneGroup: {fileID: 0}
 --- !u!4 &1848693136
 Transform:
   m_ObjectHideFlags: 0

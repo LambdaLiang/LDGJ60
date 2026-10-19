@@ -82,11 +82,13 @@ public class PhoneUI : MonoBehaviour
         historyPanel.SetActive(true);
         notificationPanel.SetActive(false);
         phoneButtonImage.color = idleColor;
+        AudioManager.Instance.PlayPhoneOpeningClosing();
     }
 
     public void CloseHistory()
     {
         historyPanel.SetActive(false);
+        AudioManager.Instance.PlayPhoneOpeningClosing();
     }
 
     private int ComparePhoneOrder(
