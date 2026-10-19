@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,56 +5,50 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 4f;
 
-    [Header("Character visual")]
-    [SerializeField] private SpriteRenderer characterSprite;
-    [SerializeField] private bool spriteFacesRight = true;
+    [Header("Character animation")]
+    [SerializeField] private Animator characterAnimator;
 
-    /*
-    [Header("Movement boundaries")]
-    [SerializeField] private SpriteRenderer backgroundSprite;
-    [SerializeField, Min(0f)] private float edgePadding = 0.1f;
-    */
     public bool InputBlocked { get; set; }
 
     private void Awake()
     {
-        if (characterSprite == null)
+        if (characterAnimator == null)
         {
-            Debug.LogError("Assign the character SpriteRenderer.", this);
+            Debug.LogError("Assign the character Animator.", this);
             enabled = false;
         }
     }
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        if (InputBlocked)
-        {
-            return;
-        }
         Keyboard keyboard = Keyboard.current;
+        int direction = 0;
 
-        float direction = 0f;
-
-        if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
+        if (!InputBlocked && keyboard != null)
         {
-            direction -= 1f;
+            if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
+            {
+                direction -= 1;
+            }
+
+            if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
+            {
+                direction += 1;
+            }
         }
 
-        if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
-        {
-            direction += 1f;
-        }
+        characterAnimator.SetInteger("move_direction", direction);
 
-        if (direction != 0f)
-        {
-            bool movingRight = direction > 0f;
-            characterSprite.flipX = movingRight != spriteFacesRight;
-        }
-
-        // Only move in horizontal
         Vector3 position = transform.position;
         position.x += direction * moveSpeed * Time.deltaTime;
-        // Clamp to background
         transform.position = position;
+    }
+
+    private void OnDisable()
+    {
+        if (characterAnimator != null)
+        {
+            characterAnimator.SetInteger("move_direction", 0);
+        }
     }
 }
