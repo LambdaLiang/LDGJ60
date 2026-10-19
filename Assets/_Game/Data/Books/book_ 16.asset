@@ -17,7 +17,7 @@ MonoBehaviour:
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 116
   content: 
-  clue_content: "This seems like a terribly dull romance novel. Wait\u2026\nSomeone
+  clue_content: "This seems like a terribly dull romance novel. \n\nWait\u2026\nSomeone
     has scribbled a note on one of the pages:\n\n\u201CLinda, are you reading this?
     Their story makes me miss you more than ever. I miss the days when we read A
     Veil of Dreams, a Lifetime of Love together. You\u2019d write a line, then I\u2019d
