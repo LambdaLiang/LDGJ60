@@ -12,7 +12,10 @@ public class BookReader : MonoBehaviour
 
     private void Awake()
     {
-        CloseBook();
+        if (bookPanel != null)
+        {
+            bookPanel.SetActive(false);
+        }
     }
 
     public void OpenBook(BookDefinition book)
@@ -56,11 +59,15 @@ public class BookReader : MonoBehaviour
             bookPanel.SetActive(false);
         }
         audioManager.PlayPuttingBookBack();
+        print("close book");
     }
 
     private void OnDisable()
     {
-        CloseBook();
+        if(bookPanel != null)
+        {
+            bookPanel.SetActive(false);
+        }
     }
 
 }
