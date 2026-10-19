@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23dccd857b23ec14895e973f6f4b9e53, type: 3}
+  m_Name: game_audio
+  m_EditorClassIdentifier: Assembly-CSharp::GameAudioDefinition
+  changing_book: {fileID: 8300000, guid: fada43884e3de8c4f85fb09a4dfcaa97, type: 3}
+  selecting_book: {fileID: 8300000, guid: b795152f0488e5042ba3b551c4f52b9e, type: 3}
+  opening_book: {fileID: 8300000, guid: 819f2a6a486c6f9498eba098ec6f976d, type: 3}
+  closing_book: {fileID: 8300000, guid: f19e099eb001c2047894389b810a82cd, type: 3}
+  putting_book_back: {fileID: 8300000, guid: 9f10ba3cf17241744af4bc7b98b18657, type: 3}
+  unlocking_clue: {fileID: 8300000, guid: 0b91d76a521c9b44abf86d445f0916c5, type: 3}

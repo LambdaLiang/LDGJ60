@@ -8,9 +8,14 @@ public class BookReader : MonoBehaviour
     [SerializeField] private TMP_Text contentText;
     [SerializeField] private ClueProgress clueProgress;
 
+    [SerializeField] private AudioManager audioManager;
+
     private void Awake()
     {
-        CloseBook();
+        if (bookPanel != null)
+        {
+            bookPanel.SetActive(false);
+        }
     }
 
     public void OpenBook(BookDefinition book)
@@ -43,6 +48,7 @@ public class BookReader : MonoBehaviour
 
 
         bookPanel.SetActive(true);
+        audioManager.PlayOpeningBook();
     }
 
 
@@ -52,11 +58,16 @@ public class BookReader : MonoBehaviour
         {
             bookPanel.SetActive(false);
         }
+        audioManager.PlayPuttingBookBack();
+        print("close book");
     }
 
     private void OnDisable()
     {
-        CloseBook();
+        if(bookPanel != null)
+        {
+            bookPanel.SetActive(false);
+        }
     }
 
 }
