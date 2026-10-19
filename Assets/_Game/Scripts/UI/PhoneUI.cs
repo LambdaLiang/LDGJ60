@@ -124,7 +124,11 @@ public class PhoneUI : MonoBehaviour
         string heading = clueProgress.GetDisplayTitle(clue);
 
         text.Append($"<indent={indentation}>");
-        text.AppendLine($"<b>{heading}</b>");
+        if (depth == 0)
+        {
+            text.AppendLine("<color=#CE8787>New Story!</color>");
+        }
+        text.AppendLine($"<size=36><i><color=#738795>{heading}</color></i></size>");
         text.AppendLine(clue.phone_message);
         text.AppendLine("</indent>");
         text.AppendLine();
