@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
+
     [SerializeField] private GameAudioDefinition audioDefinition;
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
@@ -48,6 +50,26 @@ public class AudioManager : MonoBehaviour
     {
         if (audioDefinition != null)
             PlaySfx(audioDefinition.unlocking_clue);
+    }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+
+        // 保留原有的 AudioSource 初始化代码……
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

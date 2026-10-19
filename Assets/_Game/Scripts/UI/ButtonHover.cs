@@ -14,6 +14,7 @@ public class ButtonHover : MonoBehaviour,IPointerEnterHandler, IPointerExitHandl
     public void OnPointerEnter(PointerEventData eventData)
     {
         SetVisible(true);
+        AudioManager.Instance.PlaySelectingBook();
     }
 
     public void OnPointerExit(PointerEventData eventData)

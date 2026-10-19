@@ -8,6 +8,8 @@ public class BookReader : MonoBehaviour
     [SerializeField] private TMP_Text contentText;
     [SerializeField] private ClueProgress clueProgress;
 
+    [SerializeField] private AudioManager audioManager;
+
     private void Awake()
     {
         CloseBook();
@@ -43,6 +45,7 @@ public class BookReader : MonoBehaviour
 
 
         bookPanel.SetActive(true);
+        audioManager.PlayOpeningBook();
     }
 
 
@@ -52,6 +55,7 @@ public class BookReader : MonoBehaviour
         {
             bookPanel.SetActive(false);
         }
+        audioManager.PlayPuttingBookBack();
     }
 
     private void OnDisable()

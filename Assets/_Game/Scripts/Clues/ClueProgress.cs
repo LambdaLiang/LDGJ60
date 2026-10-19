@@ -12,6 +12,7 @@ public class ClueProgress : MonoBehaviour
     public IReadOnlyList<ClueDefinition> CollectionHistory => collectionHistory;
     private readonly Dictionary<int, BookDefinition> sourceBooks = new Dictionary<int, BookDefinition>();
 
+
     public ClueDefinition GetAvailableClue(int clueIndex)
     {
         if (clueIndex < 0)
@@ -55,6 +56,8 @@ public class ClueProgress : MonoBehaviour
         {
             sourceBooks[clue.clue_index] = sourceBook;
             collectionHistory.Add(clue);
+
+            AudioManager.Instance.PlayUnlockingClue();
 
             Debug.Log($"Collected clue: {GetDisplayTitle(clue)}");
 
