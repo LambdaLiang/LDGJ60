@@ -1751,6 +1751,7 @@ MonoBehaviour:
   contentText: {fileID: 1308135363}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
+  endingController: {fileID: 2096289387}
 --- !u!114 &172236334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4578,6 +4579,7 @@ MonoBehaviour:
   contentText: {fileID: 1675645328}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
+  endingController: {fileID: 2096289387}
 --- !u!114 &563634393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5555,6 +5557,7 @@ MonoBehaviour:
   contentText: {fileID: 1501693303}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
+  endingController: {fileID: 2096289387}
 --- !u!1 &711401395
 GameObject:
   m_ObjectHideFlags: 0
@@ -11294,6 +11297,7 @@ MonoBehaviour:
   contentText: {fileID: 586522890}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
+  endingController: {fileID: 2096289387}
 --- !u!114 &1321594805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12435,6 +12439,7 @@ MonoBehaviour:
   contentText: {fileID: 99342166}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
+  endingController: {fileID: 2096289387}
 --- !u!114 &1467089488
 MonoBehaviour:
   m_ObjectHideFlags: 0

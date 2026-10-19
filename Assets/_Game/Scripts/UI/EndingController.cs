@@ -20,6 +20,7 @@ public class EndingController : MonoBehaviour
     [SerializeField] private BookshelfInteraction[] bookshelves;
 
     private bool triggered;
+    private bool endingPending;
     private bool playing;
     private int pageIndex;
     private int lastAdvanceFrame = -1;
@@ -27,6 +28,7 @@ public class EndingController : MonoBehaviour
     private bool previousPlayerBlocked;
     private bool[] previousShelfBlocked;
     private Coroutine finishRoutine;
+    private BookReader[] bookReaders;
 
     private void Awake()
     {
@@ -40,6 +42,15 @@ public class EndingController : MonoBehaviour
             return;
         }
 
+        if (bookshelves == null || bookshelves.Length == 0)
+        {
+            bookshelves = FindObjectsByType<BookshelfInteraction>(
+                FindObjectsInactive.Include, FindObjectsSortMode.None);
+        }
+
+        bookReaders = FindObjectsByType<BookReader>(
+            FindObjectsInactive.Include, FindObjectsSortMode.None);
+
         dialoguePanel.SetActive(false);
     }
 
@@ -47,12 +58,30 @@ public class EndingController : MonoBehaviour
     {
         if (clueProgress != null)
             clueProgress.ClueCollected += OnClueCollected;
+
+        if (bookReaders != null)
+        {
+            foreach (BookReader reader in bookReaders)
+            {
+                if (reader != null)
+                    reader.BookClosed += OnBookClosed;
+            }
+        }
     }
 
     private void OnDisable()
     {
         if (clueProgress != null)
             clueProgress.ClueCollected -= OnClueCollected;
+
+        if (bookReaders != null)
+        {
+            foreach (BookReader reader in bookReaders)
+            {
+                if (reader != null)
+                    reader.BookClosed -= OnBookClosed;
+            }
+        }
 
         if (finishRoutine != null)
         {
@@ -73,10 +102,26 @@ public class EndingController : MonoBehaviour
         if (triggered || clue != triggerClue)
             return;
 
+        endingPending = true;
+    }
+
+    private void OnBookClosed()
+    {
+        if (!isActiveAndEnabled || !endingPending || triggered)
+            return;
+
+        endingPending = false;
         triggered = true;
         playing = true;
         pageIndex = 0;
         lastAdvanceFrame = Time.frameCount;
+
+        // Close shelves before blocking dialogue input so movement is enabled again.
+        foreach (BookshelfInteraction shelf in bookshelves)
+        {
+            if (shelf != null && shelf.IsOpen)
+                shelf.CloseShelf();
+        }
 
         BlockInput();
 
