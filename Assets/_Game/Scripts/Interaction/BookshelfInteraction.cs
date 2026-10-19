@@ -7,6 +7,7 @@ public class BookshelfInteraction : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private GameObject bookshelfPanel;
     [SerializeField] private BoxCollider2D interactionArea;
+    [SerializeField] private Material backgroundBlurMaterial;
 
     private static BookshelfInteraction activeShelf;
     private bool playerWasNearby;
@@ -102,8 +103,17 @@ public class BookshelfInteraction : MonoBehaviour
         if (open) activeShelf = this;
         else if (activeShelf == this) activeShelf = null;
 
-        if (bookshelfPanel != null) bookshelfPanel.SetActive(open);
-        if (playerMovement != null) playerMovement.enabled = !open;
+        if (bookshelfPanel != null)
+            bookshelfPanel.SetActive(open);
+
+        if (playerMovement != null)
+            playerMovement.enabled = !open;
+
+        if (backgroundBlurMaterial != null)
+        {
+            backgroundBlurMaterial.SetFloat(
+                "_Intensity", activeShelf != null ? 1f : 0f);
+        }
     }
 
     public void CloseShelf()
