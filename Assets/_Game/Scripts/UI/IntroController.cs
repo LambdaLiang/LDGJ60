@@ -8,6 +8,7 @@ public class IntroController : MonoBehaviour
     private enum IntroState
     {
         WaitingForStart,
+        Newspaper,
         Dialogue,
         Finishing,
         Complete
@@ -17,6 +18,9 @@ public class IntroController : MonoBehaviour
     [SerializeField] private GameObject startPanel;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private BookshelfInteraction bookshelfInteraction;
+
+    [Header("Newspaper")]
+    [SerializeField] private GameObject NewspaperPanel;
 
     [Header("Dialogue")]
     [SerializeField] private GameObject dialoguePanel;
@@ -28,7 +32,7 @@ public class IntroController : MonoBehaviour
     [SerializeField] private ClueProgress clueProgress;
     [SerializeField] private ClueDefinition openingClue;
     [Tooltip("Page number, starting at 1. Award M1 when this page is dismissed.")]
-    [SerializeField, Min(1)] private int collectClueAfterPage = 3;
+    //[SerializeField, Min(1)] private int collectClueAfterPage = 3;
 
     [Header("Phone visibility")]
     [SerializeField] private CanvasGroup phoneGroup;
@@ -42,15 +46,14 @@ public class IntroController : MonoBehaviour
         if (startPanel == null || playerMovement == null ||
             bookshelfInteraction == null || dialoguePanel == null ||
             dialogueText == null || clueProgress == null ||
-            openingClue == null || phoneGroup == null)
+            openingClue == null || phoneGroup == null || NewspaperPanel == null)
         {
             Debug.LogError("Assign all intro references.", this);
             enabled = false;
             return;
         }
 
-        if (dialoguePages == null || dialoguePages.Length == 0 ||
-            collectClueAfterPage < 1 || collectClueAfterPage > dialoguePages.Length)
+        if (dialoguePages == null || dialoguePages.Length == 0)
         {
             Debug.LogError("Add dialogue pages and choose a valid clue-award page.", this);
             enabled = false;
@@ -58,8 +61,11 @@ public class IntroController : MonoBehaviour
         }
 
         state = IntroState.WaitingForStart;
+
         startPanel.SetActive(true);
+        NewspaperPanel.SetActive(false);
         dialoguePanel.SetActive(false);
+
         SetInputBlocked(true);
         SetPhoneVisible(false);
     }
@@ -75,33 +81,59 @@ public class IntroController : MonoBehaviour
 
     public void BeginGame()
     {
-        if (state != IntroState.WaitingForStart) return;
+        if (!isActiveAndEnabled ||
+        state != IntroState.WaitingForStart)
+        {
+            return;
+        }
+
+        state = IntroState.Newspaper;
+        lastAdvanceFrame = Time.frameCount;
+
+        startPanel.SetActive(false);
+        NewspaperPanel.SetActive(true);
+    }
+
+    public void FinishNewspaper()
+    {
+        if (!isActiveAndEnabled ||
+            state != IntroState.Newspaper ||
+            lastAdvanceFrame == Time.frameCount)
+        {
+            return;
+        }
+
+        if (clueProgress.GetAvailableClue(openingClue.clue_index)
+            != openingClue)
+        {
+            Debug.LogError(
+                "Register the opening clue and check its prerequisites.",
+                this);
+            return;
+        }
 
         state = IntroState.Dialogue;
         pageIndex = 0;
         lastAdvanceFrame = Time.frameCount;
-        startPanel.SetActive(false);
+
+        clueProgress.CollectClue(openingClue);
+
+        NewspaperPanel.SetActive(false);
         dialogueText.text = dialoguePages[pageIndex];
         dialoguePanel.SetActive(true);
+        SetPhoneVisible(true);
     }
-
     public void AdvanceDialogue()
     {
-        if (state != IntroState.Dialogue || lastAdvanceFrame == Time.frameCount) return;
-        lastAdvanceFrame = Time.frameCount;
-
-        if (pageIndex + 1 == collectClueAfterPage)
+        if (state != IntroState.Dialogue ||
+            lastAdvanceFrame == Time.frameCount)
         {
-            if (clueProgress.GetAvailableClue(openingClue.clue_index) != openingClue)
-            {
-                Debug.LogError("Register the opening clue and check its prerequisites.", this);
-                return;
-            }
-
-            clueProgress.CollectClue(openingClue);
+            return;
         }
 
+        lastAdvanceFrame = Time.frameCount;
         pageIndex++;
+
         if (pageIndex < dialoguePages.Length)
         {
             dialogueText.text = dialoguePages[pageIndex];
@@ -118,7 +150,6 @@ public class IntroController : MonoBehaviour
         dialoguePanel.SetActive(false);
         yield return null;
 
-        SetPhoneVisible(true);
         SetInputBlocked(false);
         state = IntroState.Complete;
     }
