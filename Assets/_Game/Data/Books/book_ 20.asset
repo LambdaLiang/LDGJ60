@@ -16,6 +16,7 @@ MonoBehaviour:
   book_title: Credits
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: -1
-  content: 
+  content: "Design: Bay \nArt: Ruby \nCode: Jean \nSound: Shirliii\n\nThanks for
+    playing!!!"
   clue_content: "Design: Bay \nArt: Ruby \nCode: Jean \nSound: Shirliii\n\nThanks
     for playing!!!"
