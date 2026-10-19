@@ -1751,7 +1751,6 @@ MonoBehaviour:
   contentText: {fileID: 1308135363}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
-  endingController: {fileID: 2096289387}
 --- !u!114 &172236334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4579,7 +4578,6 @@ MonoBehaviour:
   contentText: {fileID: 1675645328}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
-  endingController: {fileID: 2096289387}
 --- !u!114 &563634393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,7 +5555,6 @@ MonoBehaviour:
   contentText: {fileID: 1501693303}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
-  endingController: {fileID: 2096289387}
 --- !u!1 &711401395
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,7 +7894,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "An Old Local Newspaper Clipping\r\nAccording to reports, a local resident
+    discovered the body of a woman at the foot of a mountain. She was dressed for
+    a hike, and a badly wrecked bicycle lay nearby. Nothing was found on her that
+    could establish her identity\u2014only a worn paintbrush. Pale purple flowers
+    bloomed in a ring around her body, creating a scene both eerie and beautiful.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11297,7 +11298,6 @@ MonoBehaviour:
   contentText: {fileID: 586522890}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
-  endingController: {fileID: 2096289387}
 --- !u!114 &1321594805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12439,7 +12439,6 @@ MonoBehaviour:
   contentText: {fileID: 99342166}
   clueProgress: {fileID: 509319680}
   audioManager: {fileID: 371251676}
-  endingController: {fileID: 2096289387}
 --- !u!114 &1467089488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18122,9 +18121,12 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1145346181}
   dialogueText: {fileID: 463347917}
   dialoguePages:
-  - end1
-  - end2
-  - edn3
+  - 'So, she truly did touch the sunset she loved so much. '
+  - Her story has come to an end, but there must be more fascinating stories waiting
+    in this library.
+  - (Congratulations! The main story is complete.)
+  - (Feel free to explore the library and discover the rest stories hidden among
+    pages~)
   playerMovement: {fileID: 1822666268}
   bookshelves: []
 --- !u!4 &2096289388
