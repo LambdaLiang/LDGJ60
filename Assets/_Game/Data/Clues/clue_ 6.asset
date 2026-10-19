@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 106
   clue_type: 0
-  clue_title: 
   phone_message: Photographer Sun visited a mountain where pale purple flowers bloomed.
   prerequisite_clue_indices: 69000000
+  clue_code: 
+  phone_parent_clue_index: 105
+  phone_display_order: 0

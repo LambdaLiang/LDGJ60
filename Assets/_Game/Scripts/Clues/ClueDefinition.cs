@@ -29,4 +29,10 @@ public class ClueDefinition : ScriptableObject
 
     [Tooltip("Designer-facing code, such as M1 or S1.")]
     public string clue_code;
+
+    [Header("Phone layout")]
+    [Tooltip("-1 means this appears at the top level")]
+    public int phone_parent_clue_index = -1;
+    [Tooltip("Lower number appears first among sibilings.")]
+    public int phone_display_order;
 }
