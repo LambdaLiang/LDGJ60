@@ -12,6 +12,7 @@ public class BookshelfInteraction : MonoBehaviour
     private bool playerWasNearby;
     private bool isOpen;
     public bool InputBlocked { get; set; }
+    public bool IsOpen => isOpen;
 
     private void Awake()
     {
