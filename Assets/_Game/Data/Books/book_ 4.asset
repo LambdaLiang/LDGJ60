@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: book_ 4
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 4
-  book_title: An Introduction to Famous Mountains
+  book_title: "\u540D\u5C71\u7B80\u4ECB"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 105
   content: 
-  clue_content: The eastern part of the city is characterized by higher elevations
-    and gently rolling mountain ranges. Its scenic landscapes and terrain suitable
-    for hiking and cycling make it a popular destination for travelers, photographers,
-    and painters.
+  clue_content: "\u57CE\u5E02\u4E1C\u90E8\u5730\u52BF\u8F83\u9AD8\uFF0C\u5206\u5E03\u7740\u8FDE\u7EF5\u8D77\u4F0F\u7684\u5C71\u8109\u3002\u5176\u4F18\u7F8E\u7684\u81EA\u7136\u98CE\u5149\u548C\u9002\u5B9C\u5F92\u6B65\u3001\u9A91\u884C\u7684\u5730\u5F62\uFF0C\u4F7F\u5176\u6210\u4E3A\u6E38\u5BA2\u3001\u6444\u5F71\u5E08\u548C\u753B\u5BB6\u7684\u70ED\u95E8\u76EE\u7684\u5730\u3002"

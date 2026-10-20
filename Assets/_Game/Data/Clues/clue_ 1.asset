@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 101
   clue_type: 0
-  clue_title: 
-  phone_message: A women dead at the foot of a mountain with a bicycle, surrounded
-    by pale purple flowers. I should try to find some information about this mountain
-    and this flower.
+  phone_message: "\u4E00\u540D\u5973\u5B50\u6B7B\u5728\u5C71\u811A\u4E0B\uFF0C\u8EAB\u65C1\u6709\u4E00\u8F86\u81EA\u884C\u8F66\uFF0C\u5468\u56F4\u5F00\u6EE1\u4E86\u6DE1\u7D2B\u8272\u7684\u82B1\u3002\u6211\u5E94\u8BE5\u627E\u627E\u8FD9\u5EA7\u5C71\u548C\u8FD9\u79CD\u82B1\u7684\u8D44\u6599\u3002"
   prerequisite_clue_indices: 
+  clue_code: 
+  phone_parent_clue_index: -1
+  phone_display_order: 0

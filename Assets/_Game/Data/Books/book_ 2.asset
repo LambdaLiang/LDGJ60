@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: book_ 2
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 2
-  book_title: The Flower Arranging Handbook
+  book_title: "\u63D2\u82B1\u6307\u5357"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 103
-  content: This book elaborates on the strengths and limitations of different flowers
-    in flower arrangemengs using beautiful photographs.
-  clue_content: "Flower Choosing Tips:\nEmberbloom:\nEmberbloom has a beautiful color
-    gradient that changes over time. \nArtists and writers are often drawn to its
-    symbolism.\n "
+  content: "\u8FD9\u672C\u4E66\u8BE6\u7EC6\u8BB2\u89E3\u4E86\u4E0D\u540C\u7684\u82B1\u5728\u63D2\u82B1\u65B9\u9762\u7684\u4F18\u52BF\u548C\u52A3\u52BF\uFF0C\u9644\u6709\u7CBE\u7F8E\u7684\u56FE\u7247\u3002"
+  clue_content: "\u63D2\u82B1\u5C0F\u77E5\u8BC6 - \u70EC\u9633\u82B1\n\u8FD9\u79CD\u82B1\u6709\u7740\u6F02\u4EAE\u7684\u6E10\u53D8\u8272\uFF0C\u4E14\u4F1A\u968F\u7740\u65F6\u95F4\u6539\u53D8\uFF0C\u6587\u827A\u5DE5\u4F5C\u8005\u5F80\u5F80\u5F88\u559C\u6B22\u5B83\u7684\u542B\u4E49\u3002 "

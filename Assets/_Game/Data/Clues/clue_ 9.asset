@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 109
   clue_type: 1
-  phone_message: A telephone operator calls an impossible number and reaches a woman
-    seeking help from the future.
+  phone_message: "\u4E00\u540D\u7535\u8BDD\u63A5\u7EBF\u5458\u62E8\u901A\u4E86\u4E00\u4E2A\u4E0D\u53EF\u80FD\u5B58\u5728\u7684\u53F7\u7801\uFF0C\u63A5\u5230\u7684\u5374\u662F\u4E00\u4F4D\u6765\u81EA\u672A\u6765\u3001\u6B63\u5728\u6C42\u52A9\u7684\u5973\u5B50\u3002"
   prerequisite_clue_indices: 
   clue_code: 
   phone_parent_clue_index: -1

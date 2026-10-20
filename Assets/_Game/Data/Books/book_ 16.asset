@@ -13,16 +13,8 @@ MonoBehaviour:
   m_Name: book_ 16
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 16
-  book_title: For Whom Did the Roses Bloom That Night?
+  book_title: "\u90A3\u4E00\u591C\uFF0C\u8537\u8587\u4E3A\u8C01\u800C\u5F00"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 116
-  content: "This seems like a terribly dull romance novel. \n\nWait\u2026\nSomeone
-    has scribbled a note on one of the pages:\n\n\u201CLinda, are you reading this?
-    Their story makes me miss you more than ever. I miss the days when we read A
-    Veil of Dreams, a Lifetime of Love together. You\u2019d write a line, then I\u2019d
-    write one back. We spoke to each other through the pages.\u201D"
-  clue_content: "This seems like a terribly dull romance novel. \n\nWait\u2026\nSomeone
-    has scribbled a note on one of the pages:\n\n\u201CLinda, are you reading this?
-    Their story makes me miss you more than ever. I miss the days when we read A
-    Veil of Dreams, a Lifetime of Love together. You\u2019d write a line, then I\u2019d
-    write one back. We spoke to each other through the pages.\u201D"
+  content: "\u4F3C\u4E4E\u662F\u975E\u5E38\u65E0\u804A\u7684\u4E00\u672C\u7231\u60C5\u5C0F\u8BF4\uFF0C\u7B49\u7B49.......\n\n\uFF08\u6709\u4EBA\u5728\u67D0\u9875\u6279\u6CE8\uFF09\n\n\u201C\u5A1F\uFF0C\u4F60\u4F1A\u5728\u8BFB\u5417\uFF1F\u201D\n\u201C\u770B\u5230\u7537\u5973\u4E3B\u7684\u6545\u4E8B\uFF0C\u6211\u683C\u5916\u601D\u5FF5\u4F60\uFF0C\u597D\u6000\u5FF5\u4E0E\u4F60\u5171\u8BFB\u300A\u4E00\u5E18\u5E7D\u68A6\uFF0C\u534A\u751F\u60C5\u300B\u7684\u65E5\u5B50\uFF0C\u6211\u4EEC\u5C31\u50CF\u8FD9\u6837\uFF0C\u4F60\u5199\u4E00\u53E5\uFF0C\u6211\u5199\u4E00\u53E5\uFF0C\u901A\u8FC7\u4E66\u7C4D\u5BF9\u8BDD\u3002\u201D"
+  clue_content: "\u4F3C\u4E4E\u662F\u975E\u5E38\u65E0\u804A\u7684\u4E00\u672C\u7231\u60C5\u5C0F\u8BF4\uFF0C\u7B49\u7B49.......\n\n\uFF08\u6709\u4EBA\u5728\u67D0\u9875\u6279\u6CE8\uFF09\n\n\u201C\u5A1F\uFF0C\u4F60\u4F1A\u5728\u8BFB\u5417\uFF1F\u201D\n\u201C\u770B\u5230\u7537\u5973\u4E3B\u7684\u6545\u4E8B\uFF0C\u6211\u683C\u5916\u601D\u5FF5\u4F60\uFF0C\u597D\u6000\u5FF5\u4E0E\u4F60\u5171\u8BFB\u300A\u4E00\u5E18\u5E7D\u68A6\uFF0C\u534A\u751F\u60C5\u300B\u7684\u65E5\u5B50\uFF0C\u6211\u4EEC\u5C31\u50CF\u8FD9\u6837\uFF0C\u4F60\u5199\u4E00\u53E5\uFF0C\u6211\u5199\u4E00\u53E5\uFF0C\u901A\u8FC7\u4E66\u7C4D\u5BF9\u8BDD\u3002\u201D"

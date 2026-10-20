@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 114
   clue_type: 2
-  phone_message: The Anthophasma vespertinum is used in traditional medicine. Its
-    trade has brought prosperity to local villagers and attracted many newcomers.
+  phone_message: "\u8910\u74E3\u62DF\u82B1\u45DB\u53EF\u5165\u836F\uFF0C\u6751\u6C11\u4EEC\u9760\u5B83\u53D1\u5BB6\u81F4\u5BCC\uFF0C\u4E5F\u5438\u5F15\u4E86\u8BB8\u591A\u4EBA\u524D\u6765\u3002"
   prerequisite_clue_indices: 71000000
   clue_code: 
   phone_parent_clue_index: 113

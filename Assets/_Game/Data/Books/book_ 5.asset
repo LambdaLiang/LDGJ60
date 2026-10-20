@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: book_ 5
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 5
-  book_title: 'A Photographic Collection: Mountains and Landscapes'
+  book_title: "\u6444\u5F71\u96C6-\u5C71\u5DDD\u4E0E\u7F8E\u666F"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 106
-  content: "A landscape photographer\u2019s portfolio featuring a wide variety of
-    scenery."
-  clue_content: 'One photograph appears to have been taken from a mountaintop, capturing
-    a beautiful sunset in the distance. Pale purple flowers bloom in the grass.
-
-    Photographer:
-    Sun'
+  content: "\u4E00\u4F4D\u98CE\u666F\u6444\u5F71\u5E08\u7684\u4F5C\u54C1\u96C6\uFF0C\u4EC0\u4E48\u7C7B\u578B\u7684\u98CE\u666F\u90FD\u6709\u3002"
+  clue_content: "\u5176\u4E2D\u67D0\u4E00\u9875\u4F5C\u54C1\u770B\u8D77\u6765\u62CD\u4E8E\u4E00\u5EA7\u5C71\u9876\uFF0C\u8FDC\u65B9\u6B63\u5728\u65E5\u843D\uFF0C\u975E\u5E38\u7F8E\u4E3D\uFF0C\u5730\u9762\u4E0A\u5F00\u7740\u8BB8\u591A\u6D45\u7D2B\u8272\u7684\u82B1\u3002\u6444\u5F71\u5E08\uFF1ASun"

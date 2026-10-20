@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: book_ 7
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 7
-  book_title: Small-Town Conversations
+  book_title: "\u5C0F\u9547\u8BBF\u8C08"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 108
-  content: "This book collects scattered local reporters\u2019 interviews with residents."
-  clue_content: "In a section featuring local painters, an unnamed woman talks about
-    her unhappy early life. She left her rain-soaked hometown for this remote, sunlit
-    little city. She had spent her life painting sunsets, and after hearing that
-    the eastern mountains offered the finest views, she rode her bicycle there to
-    see for herself.\n\u201CIf I could,\u201D she said, \u201CI would love to dive
-    into and touch such radiant sunlight one day.\u201D"
+  content: "\u96F6\u96F6\u788E\u788E\u5730\u8BB0\u8F7D\u4E86\u672C\u5730\u8BB0\u8005\u4EEC\u4E0E\u5404\u884C\u5404\u4E1A\u5E02\u6C11\u4EEC\u7684\u91C7\u8BBF\u8BB0\u5F55"
+  clue_content: "\u5728\u4E0E\u672C\u5730\u753B\u5BB6\u4EEC\u7684\u8BBF\u8C08\u6545\u4E8B\u4E2D\uFF0C\u6709\u4E00\u4F4D\u65E0\u540D\u5973\u58EB\u63D0\u53CA\uFF0C\u5979\u7684\u524D\u534A\u751F\u4E0D\u5E78\uFF0C\u4E8E\u662F\u79BB\u5F00\u4E86\u9634\u96E8\u8FDE\u7EF5\u7684\u6545\u4E61\u6765\u5230\u8FD9\u4E2A\u9633\u5149\u666E\u7167\u7684\u504F\u8FDC\u5C0F\u57CE\u5E02\uFF0C\u5979\u753B\u4E86\u4E00\u8F88\u5B50\u5979\u6700\u7231\u7684\u65E5\u843D\uFF0C\u542C\u8BF4\u672C\u5E02\u4E1C\u90E8\u5C71\u8109\u7684\u65E5\u843D\u6700\u7F8E\uFF0C\u5979\u4E8E\u662F\u9A91\u4E0A\u81EA\u884C\u8F66\u6765\u770B\u770B\u3002\u5979\u8BF4\uFF1A\u201C\u5982\u679C\u53EF\u80FD\u7684\u8BDD\uFF0C\u771F\u60F3\u4EB2\u624B\u89E6\u6478\u90A3\u4E48\u707F\u70C2\u7684\u9633\u5149\u554A\u3002\u201D"

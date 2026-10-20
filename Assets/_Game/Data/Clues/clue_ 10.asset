@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 110
   clue_type: 2
-  phone_message: "With the future\u2019s digital memory offline, Mara helps the woman
-    discover how to read a forgotten novel."
+  phone_message: "\u672A\u6765\u7684\u6570\u5B57\u8BB0\u5FC6\u5DF2\u65E0\u6CD5\u8BBF\u95EE\uFF0C\u739B\u62C9\u5E2E\u52A9\u5979\u627E\u5230\u4E86\u9605\u8BFB\u4E00\u90E8\u88AB\u9057\u5FD8\u5C0F\u8BF4\u7684\u65B9\u6CD5\u3002"
   prerequisite_clue_indices: 6d000000
   clue_code: 
   phone_parent_clue_index: 109

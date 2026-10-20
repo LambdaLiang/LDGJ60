@@ -13,16 +13,8 @@ MonoBehaviour:
   m_Name: book_ 18
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 18
-  book_title: "Story Time, Issue 10 \u2014 Late May 2000"
+  book_title: "\u6545\u4E8B\u4F1A-\u7B2C\u5341\u671F\uFF0C\u4E94\u6708\u4E0B"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: -1
-  content: "15 Jokes:\nThe Power of Prayer\nTom complained to a friend, \u201CWhat
-    good is prayer? My son wants a bicycle for Christmas, but I can\u2019t afford
-    one. I prayed all night, and there\u2019s still no bicycle!\u201D\n\u201CYou\u2019re
-    going about it the wrong way,\u201D his friend said. \u201CSteal a bicycle for
-    your son first. Then pray for forgiveness.\u201D\n\n"
-  clue_content: "15 Jokes:\nThe Power of Prayer\nTom complained to a friend, \u201CWhat
-    good is prayer? My son wants a bicycle for Christmas, but I can\u2019t afford
-    one. I prayed all night, and there\u2019s still no bicycle!\u201D\n\u201CYou\u2019re
-    going about it the wrong way,\u201D his friend said. \u201CSteal a bicycle for
-    your son first. Then pray for forgiveness.\u201D\n\n"
+  content: "\u7B11\u8BDD15\u5219\uFF1A\n1.\u7948\u7977\u7684\u4F5C\u7528\n\u6C64\u59C6\u548C\u670B\u53CB\u62B1\u6028\uFF1A\u201C\u7948\u7977\u6709\u4EC0\u4E48\u7528\uFF1F\u6211\u513F\u5B50\u60F3\u8981\u7684\u5723\u8BDE\u793C\u7269\u662F\u4E00\u8F86\u81EA\u884C\u8F66\uFF0C\u6211\u6CA1\u94B1\u4E70\uFF0C\u5411\u795E\u7948\u7977\u4E86\u4E00\u665A\u4E0A\uFF0C\u81EA\u884C\u8F66\u8FD8\u662F\u4E0D\u77E5\u9053\u5728\u54EA\n\u91CC!\u201D\n\u670B\u53CB\u8BF4:\u201C\u5149\u7948\u7977\u600E\u4E48\u884C\u5462?\u4E0D\u5982\u4F60\u5148\u53BB\u5077\u4E00\u8F86\u81EA\u884C\u8F66\u9001\u7ED9\u4F60\u513F\u5B50\uFF0C\u7136\u540E\u518D\u5411\u795E\u7948\u7977\uFF0C\u8BF7\u795E\u5BBD\u6055\u4F60\u7684\u7F6A\n\u8FC7\u3002\u201D"
+  clue_content: "\u7B11\u8BDD15\u5219\uFF1A\n1.\u7948\u7977\u7684\u4F5C\u7528\n\u6C64\u59C6\u548C\u670B\u53CB\u62B1\u6028\uFF1A\u201C\u7948\u7977\u6709\u4EC0\u4E48\u7528\uFF1F\u6211\u513F\u5B50\u60F3\u8981\u7684\u5723\u8BDE\u793C\u7269\u662F\u4E00\u8F86\u81EA\u884C\u8F66\uFF0C\u6211\u6CA1\u94B1\u4E70\uFF0C\u5411\u795E\u7948\u7977\u4E86\u4E00\u665A\u4E0A\uFF0C\u81EA\u884C\u8F66\u8FD8\u662F\u4E0D\u77E5\u9053\u5728\u54EA\n\u91CC!\u201D\n\u670B\u53CB\u8BF4:\u201C\u5149\u7948\u7977\u600E\u4E48\u884C\u5462?\u4E0D\u5982\u4F60\u5148\u53BB\u5077\u4E00\u8F86\u81EA\u884C\u8F66\u9001\u7ED9\u4F60\u513F\u5B50\uFF0C\u7136\u540E\u518D\u5411\u795E\u7948\u7977\uFF0C\u8BF7\u795E\u5BBD\u6055\u4F60\u7684\u7F6A\n\u8FC7\u3002\u201D"

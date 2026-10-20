@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 115
   clue_type: 2
-  phone_message: According to local lore, there are hidden villages in southwest
-    secretly breeds Heartbinders to control outsiders.
+  phone_message: "\u6C11\u95F4\u4F20\u95FB\u6709\u4E9B\u9690\u4E16\u6751\u843D\u79D8\u5BC6\u57F9\u517B\u7740\u7275\u5FC3\u866B\u4EE5\u64CD\u63A7\u5916\u6765\u4EBA\u3002"
   prerequisite_clue_indices: 71000000
   clue_code: 
   phone_parent_clue_index: 113

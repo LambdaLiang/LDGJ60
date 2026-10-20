@@ -80,7 +80,7 @@ public class ClueProgress : MonoBehaviour
             return book.book_title;
         }
 
-        return "A Mystery from the Newspaper";
+        return "报纸上的离奇死亡现场";
     }
 
 

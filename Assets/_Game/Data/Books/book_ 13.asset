@@ -13,14 +13,8 @@ MonoBehaviour:
   m_Name: book_ 13
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 13
-  book_title: The Beauty of Southwest
+  book_title: "\u897F\u5357\u98CE\u5149"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 114
-  content: "This book offers a comprehensive overview of southwest\u2019s culture
-    and scenery."
-  clue_content: "A distinctive plant Anthophasma vespertinum grows in the region.
-    Its petals resemble insect limbs and change shape in response to temperature
-    and sunlight. Dried specimens are used in traditional medicine and are a local
-    specialty.\nMany villages depend on cultivating this flower for their livelihood.
-    Rising prices in recent years have attracted newcomers hoping to establish themselves
-    in the local \u201Cinsect medicine\u201D trade."
+  content: "\u8FD9\u672C\u4E66\u5168\u9762\u5730\u4ECB\u7ECD\u4E86\u897F\u5357\u5730\u533A\u7684\u6587\u5316\u4E0E\u98CE\u666F\u3002"
+  clue_content: "\u897F\u5357\u67D0\u5C71\u4E0A\u751F\u957F\u6709\u4E00\u79CD\u7279\u8272\u690D\u7269\u8910\u74E3\u62DF\u82B1\u45DB\uFF0C\u5176\u82B1\u74E3\u9177\u4F3C\u866B\u80A2\uFF0C\u968F\u7740\u6C14\u6E29\u4E0E\u9633\u5149\u7684\u53D8\u5316\uFF0C\u4F1A\u6709\u9002\u5E94\u6027\u7684\u53D8\u5F62\u3002\u5176\u6652\u5E72\u53EF\u5165\u836F\uFF0C\u4E3A\u897F\u5357\u7279\u4EA7\u3002\u8BB8\u591A\u6751\u843D\u4EE5\u79CD\u690D\u6B64\u82B1\u4E3A\u751F\uFF0C\u8FD1\u5E74\u6765\u4EF7\u683C\u9010\u6E10\u8D70\u9AD8\uFF0C\u5438\u5F15\u4E86\u8BB8\u591A\u5916\u5730\u4EBA\u8FC1\u6765\u672C\u5730\u53D1\u5C55\u866B\u836F\u751F\u610F\u3002"

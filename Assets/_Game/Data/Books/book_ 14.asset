@@ -13,12 +13,8 @@ MonoBehaviour:
   m_Name: book_ 14
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 14
-  book_title: Unofficial Histories of Southwest
+  book_title: "\u897F\u5357\u91CE\u53F2"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 115
-  content: A collection of folk legends and strange customs from southwest.
-  clue_content: "Somewhere in the southwest lies a village hidden from the world
-    for generations. Few can find it\u2014and those who do can never leave! Its inhabitants
-    secretly cultivate an unnatural creature: a flower by day, an insect by night.
-    With it, they can control a person\u2019s limbs, slowly stripping away their
-    will."
+  content: "\u5173\u4E8E\u897F\u5357\u5730\u533A\u7684\u6C11\u95F4\u4F20\u8BF4\u548C\u98CE\u4FD7\u602A\u8C08\u3002"
+  clue_content: "\u636E\u4F20\uFF0C\u897F\u5357\u6709\u4E00\u5EA7\u6751\u843D\uFF0C\u9690\u4E16\u591A\u5E74\uFF0C\u5E38\u4EBA\u4E0D\u80FD\u627E\u5230\uFF0C\u56E0\u4E3A\u627E\u5230\u7684\u4EBA\u90FD\u65E0\u6CD5\u518D\u79BB\u5F00\uFF01\u6751\u6C11\u4EEC\u79D8\u5BC6\u57F9\u517B\u7740\u4E00\u79CD\u767E\u65E5\u4E3A\u82B1\uFF0C\u591C\u95F4\u4E3A\u866B\u7684\u90AA\u7269\uFF0C\u5F97\u4EE5\u63A7\u4EBA\u624B\u8DB3\uFF0C\u6E10\u6E10\u4F7F\u5176\u5931\u53BB\u672C\u5FC3\u3002"

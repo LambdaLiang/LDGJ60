@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 102
   clue_type: 0
-  phone_message: 'Emberbloom: Its flowers are deep purple, gradually fading as they
-    mature.'
+  phone_message: "\u70EC\u9633\u82B1\uFF1A\u82B1\u5448\u6DF1\u7D2B\u8272\uFF0C\u968F\u751F\u957F\u989C\u8272\u9010\u6E10\u53D8\u6D45"
   prerequisite_clue_indices: 65000000
   clue_code: 
   phone_parent_clue_index: 101

@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: book_ 12
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 12
-  book_title: The Insect Encyclopedia
+  book_title: "\u6606\u866B\u767E\u79D1\u5927\u5168"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 113
-  content: "This book covers thousands of insect species. Without knowing what to
-    look for, I\u2019d better not read it page by page."
-  clue_content: "HEARTBINDER (Common Name)\nScientific Name: Anthophasma vespertinum\nFamily:
-    Anthophasmatidae\nGenus: Anthophasma\nDistribution: Southwestern China\nDescription:
-    A small, dark brown insect with slender limbs. Known locally as the \u201CHeartbinder\u201D."
+  content: "\u4ECB\u7ECD\u4E86\u6210\u5343\u4E0A\u767E\u79CD\u6606\u866B\uFF0C\u5982\u679C\u6CA1\u6709\u660E\u786E\u7684\u76EE\u7684\u8FD8\u662F\u4E0D\u8981\u4E00\u9875\u4E00\u9875\u8BFB\u4E86"
+  clue_content: "\u7275\u5FC3\u866B\uFF08\u522B\u540D\uFF09\n\u5B66\u540D\uFF1A\u8910\u74E3\u62DF\u82B1\u45DB\n\u79D1\uFF1A\u62DF\u82B1\u45DB\u79D1\n\u5C5E\uFF1A\u62DF\u82B1\u45DB\u5C5E\n\u5206\u5E03\uFF1A\u4E2D\u56FD\u897F\u5357\n\u63CF\u8FF0\uFF1A\u4E00\u79CD\u5C0F\u578B\u3001\u6DF1\u8272\uFF0C\u6709\u7740\u7EA4\u7EC6\u866B\u80A2\u7684\u6606\u866B\u3002\u5728\u6C11\u95F4\u901A\u5E38\u88AB\u6210\u4E3A\u201C\u7275\u5FC3\u866B\u201D\u3002"

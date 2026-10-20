@@ -13,19 +13,8 @@ MonoBehaviour:
   m_Name: book_ 1
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 1
-  book_title: The Plant Encyclopedia
+  book_title: "\u690D\u7269\u767E\u79D1\u5927\u5168"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 102
   content: 
-  clue_content: 'EMBERBLOOM
-
-    Family: Emberaceae
-
-    Genus: Vesperanthus
-
-    Description:
-    Its flowers are deep purple when they first open, gradually fading to pale purple.
-
-
-    This
-    description sounds similar. Maybe I should look for some pictures.'
+  clue_content: "\u70EC\u9633\u82B1\uFF08Emberbloom\uFF09\n\u79D1\uFF1A\u70EC\u9633\u82B1\u79D1\uFF08Emberaceae\uFF09\n\u5C5E\uFF1A\u66AE\u8F89\u5C5E\uFF08Vesperanthus\uFF09\n\u63CF\u8FF0\uFF1A\u82B1\u6700\u521D\u7EFD\u653E\u65F6\u4E3A\u5448\u6DF1\u7D2B\u8272\uFF0C\u968F\u7740\u751F\u957F\u989C\u8272\u9010\u6E10\u53D8\u4E3A\u6D45\u7D2B\u3002\n\n\uFF08\u8FD9\u4E2A\u542C\u8D77\u6765\u50CF\u6211\u8981\u627E\u7684\u82B1\uFF0C\u4E5F\u8BB8\u6211\u5E94\u8BE5\u53BB\u627E\u627E\u56FE\u7247\u3002\uFF09"

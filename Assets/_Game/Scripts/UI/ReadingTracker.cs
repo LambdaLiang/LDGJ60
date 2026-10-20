@@ -25,7 +25,7 @@ public class ReadingTracker : MonoBehaviour
     {
         if (progressText != null)
         {
-            progressText.text = $"Books Read: {ReadCount}/20";
+            progressText.text = $"已读: {ReadCount}/20";
         }
     }
 }

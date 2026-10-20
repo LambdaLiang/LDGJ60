@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 112
   clue_type: 1
-  clue_title: 
-  phone_message: "Heartbinder\u2026 Where did they find that out? I should look into
-    it too."
+  phone_message: "\u7275\u5FC3\u866B\uFF0C\u8FD9\u4E2A\u4EBA\u5728\u54EA\u91CC\u67E5\u660E\u7684?
+    \u6211\u4E5F\u5F97\u53BB\u67E5\u67E5\u770B\u3002"
   prerequisite_clue_indices: 
+  clue_code: 
+  phone_parent_clue_index: -1
+  phone_display_order: 0

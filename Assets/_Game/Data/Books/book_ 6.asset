@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: book_ 6
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 6
-  book_title: The Adventure Journal of Photographer Sun
+  book_title: "\u6444\u5F71\u5E08Sun\u7684\u5192\u9669\u65E5\u8BB0"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 107
-  content: This book chronicles the adventures of a photographer around the world.
-  clue_content: "In one story, Sun writes:\n\u201COf all the eastern mountains, The
-    Suncradle Mountain is my favorite. A cliff juts out from its slopes, and when
-    you watch the sunset from there, the sun seems close enough to touch. It\u2019s
-    the most beautiful sunset I\u2019ve ever seen.\n\u201CMany local painters come
-    here to sketch. Once, I saw a reporter interviewing a woman painter. She looked
-    so happy. She must have loved the place too.\u201D"
+  content: "\u8BB0\u5F55\u4E86\u4E00\u4F4D\u6444\u5F71\u5E08\u5728\u4E16\u754C\u5404\u5730\u7684\u5192\u9669\u6545\u4E8B\u3002"
+  clue_content: "\u5728\u4E00\u5219\u6545\u4E8B\u4E2D\uFF0C\u4ED6\u63D0\u5230\uFF1A\u201C\u5728\u6240\u6709\u4E1C\u90E8\u7FA4\u5C71\u4E2D\uFF0C\u6211\u6700\u559C\u6B22\u8854\u65E5\u5C71\uFF0C\u90A3\u91CC\u6709\u4E00\u5757\u7A81\u51FA\u7684\u60AC\u5D16\u5CED\u58C1\uFF0C\u7AD9\u5728\u90A3\u91CC\u770B\u65E5\u843D\u65F6\uFF0C\u4EFF\u4F5B\u592A\u9633\u5C31\u5728\u773C\u524D\uFF0C\u662F\u672A\u66FE\u89C1\u8FC7\u7684\u6700\u7F8E\u7684\u65E5\u843D\u3002\u90A3\u91CC\u4E5F\u6709\u5F88\u591A\u7684\u672C\u5730\u753B\u5BB6\u5728\u5199\u751F\uFF0C\u6709\u4E00\u6B21\u6211\u5C31\u770B\u5230\u4E86\u4E00\u4E2A\u8BB0\u8005\u5728\u91C7\u8BBF\u4E00\u4E2A\u5973\u753B\u5BB6\uFF0C\u90A3\u4E2A\u753B\u5BB6\u770B\u8D77\u6765\u5F88\u5E78\u798F\uFF0C\u5979\u4E00\u5B9A\u4E5F\u5F88\u559C\u6B22\u8FD9\u4E2A\u5730\u65B9\u3002\u201D"

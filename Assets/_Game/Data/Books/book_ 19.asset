@@ -13,30 +13,14 @@ MonoBehaviour:
   m_Name: book_ 19
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 19
-  book_title: Neck and Shoulder Relief Guide
+  book_title: "\u80A9\u9888\u653E\u677E\u6307\u5357"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: -1
-  content: 'Been Sitting Too Long? Try This Quick Neck and Shoulder Relaxation Tip!
-
-    1.
-    Sit upright with your arms relaxed.
-
-    2. Slowly lift your shoulders toward
-    your ears.
-
-    3. Roll them backward, gently drawing your shoulder blades together.
-
-    4.
-    Lower your shoulders and relax. Repeat 5 times.'
-  clue_content: 'Been Sitting Too Long? Try This Quick Neck and Shoulder Relaxation
-    Tip!
-
-    1. Sit upright with your arms relaxed.
-
-    2. Slowly lift your shoulders
-    toward your ears.
-
-    3. Roll them backward, gently drawing your shoulder blades
-    together.
-
-    4. Lower your shoulders and relax. Repeat 5 times.'
+  content: "\u4E45\u5750\u592A\u4E45\uFF1F\u8BD5\u8BD5\u8FD9\u4E2A\u80A9\u9888\u653E\u677E\u5C0F\u6280\u5DE7\uFF01\n\n1.
+    \u5750\u76F4\uFF0C\u53CC\u81C2\u81EA\u7136\u653E\u677E\u3002\n2. \u6162\u6162\u62AC\u8D77\u53CC\u80A9\uFF0C\u9760\u8FD1\u8033\u6735\u3002\n3.
+    \u5C06\u53CC\u80A9\u5411\u540E\u7ED5\uFF0C\u8F7B\u8F7B\u6536\u62E2\u80A9\u80DB\u9AA8\u3002\n4.
+    \u653E\u4E0B\u53CC\u80A9\u5E76\u653E\u677E\u3002\u91CD\u590D5\u6B21\u3002"
+  clue_content: "\u4E45\u5750\u592A\u4E45\uFF1F\u8BD5\u8BD5\u8FD9\u4E2A\u80A9\u9888\u653E\u677E\u5C0F\u6280\u5DE7\uFF01\n\n1.
+    \u5750\u76F4\uFF0C\u53CC\u81C2\u81EA\u7136\u653E\u677E\u3002\n2. \u6162\u6162\u62AC\u8D77\u53CC\u80A9\uFF0C\u9760\u8FD1\u8033\u6735\u3002\n3.
+    \u5C06\u53CC\u80A9\u5411\u540E\u7ED5\uFF0C\u8F7B\u8F7B\u6536\u62E2\u80A9\u80DB\u9AA8\u3002\n4.
+    \u653E\u4E0B\u53CC\u80A9\u5E76\u653E\u677E\u3002\u91CD\u590D5\u6B21\u3002"

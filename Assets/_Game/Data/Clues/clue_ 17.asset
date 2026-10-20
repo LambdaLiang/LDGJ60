@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 117
   clue_type: 2
-  phone_message: A story more captivating than the novel itself.
+  phone_message: "\u6BD4\u5C0F\u8BF4\u66F4\u597D\u770B\u7684\u6545\u4E8B\u3002"
   prerequisite_clue_indices: 74000000
   clue_code: 
   phone_parent_clue_index: 116

@@ -70,7 +70,7 @@ public class PhoneUI : MonoBehaviour
         string heading = clueProgress.GetDisplayTitle(clue);
 
         notificationText.text =
-            $"New clue: {heading}\nClick to read";
+            $"新线索获得: {heading}\n（点击阅读）";
 
         notificationPanel.SetActive(true);
         phoneButtonImage.color = unreadColor;
@@ -128,7 +128,7 @@ public class PhoneUI : MonoBehaviour
         text.Append($"<indent={indentation}>");
         if (depth == 0)
         {
-            text.AppendLine("<color=#CE8787>New Story!</color>");
+            text.AppendLine("<color=#CE8787>新的故事线!</color>");
         }
         text.AppendLine($"<size=36><i><color=#738795>{heading}</color></i></size>");
         text.AppendLine(clue.phone_message);
@@ -163,7 +163,7 @@ public class PhoneUI : MonoBehaviour
 
         if (sortedClues.Count == 0)
         {
-            historyText.text = "No clues collected yet.";
+            historyText.text = "还没有找到任何线索";
             return;
         }
 

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 116
   clue_type: 1
-  clue_title: 
-  phone_message: A Veil of Dreams, a Lifetime of Love, A Veil of Dreams, a Lifetime
-    of Love, A Veil of Dreams, a Lifetime of Love......
+  phone_message: "\u4E00\u5E18\u5E7D\u68A6\uFF0C\u534A\u751F\u60C5\uFF0C\u4E00\u5E18\u5E7D\u68A6\uFF0C\u534A\u751F\u60C5\uFF0C\u4E00\u5E18\u5E7D\u68A6\uFF0C\u534A\u751F\u60C5..."
   prerequisite_clue_indices: 
+  clue_code: 
+  phone_parent_clue_index: -1
+  phone_display_order: 0

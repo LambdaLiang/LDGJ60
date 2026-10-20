@@ -13,15 +13,8 @@ MonoBehaviour:
   m_Name: book_ 10
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 10
-  book_title: The Collection
+  book_title: "\u6536\u85CF"
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 111
-  content: This seems to be part of a mystery series. Maybe I should look for the
-    earlier volumes.
-  clue_content: "Near dawn, the woman laughed.\r\n\u201CThe man thinks going to sea
-    will improve his mood.\u201D\r\n\u201CDoes it?\u201D\r\n\u201CI haven\u2019t
-    got that far.\u201D\r\nShe asked Mara\u2019s name for the record. The line went
-    dead before Mara could answer.\r\nAt home, Mara opened her copy of Moby-Dick.
-    Beside the first sentence was a small coffee stain.\r\nMara packed it with her
-    other novels. Inside she placed a notebook, a telephone number, and the words:\r\nAfter
-    midnight. Ask her to stay."
+  content: "\u8FD9\u4F3C\u4E4E\u662F\u67D0\u4E2A\u60AC\u7591\u7CFB\u5217\u4E2D\u7684\u4E00\u672C\u3002\u4E5F\u8BB8\u6211\u8BE5\u627E\u627E\u524D\u51E0\u5377\u3002"
+  clue_content: "\u5929\u5FEB\u4EAE\u65F6\uFF0C\u5973\u4EBA\u7B11\u4E86\u3002\n\u201C\u8FD9\u4E2A\u4EBA\u89C9\u5F97\u51FA\u6D77\u80FD\u8BA9\u5FC3\u60C5\u597D\u8D77\u6765\u3002\u201D\n\u201C\u6709\u7528\u5417\uFF1F\u201D\n\u201C\u6211\u8FD8\u6CA1\u8BFB\u5230\u90A3\u91CC\u3002\u201D\n\u5979\u95EE\u739B\u62C9\u53EB\u4EC0\u4E48\u540D\u5B57\uFF0C\u597D\u505A\u4E2A\u8BB0\u5F55\u3002\u739B\u62C9\u8FD8\u6CA1\u6765\u5F97\u53CA\u56DE\u7B54\uFF0C\u7535\u8BDD\u5C31\u65AD\u4E86\u3002\n\u56DE\u5230\u5BB6\uFF0C\u739B\u62C9\u7FFB\u5F00\u81EA\u5DF1\u7684\u90A3\u672C\u300A\u767D\u9CB8\u300B\u3002\u7B2C\u4E00\u53E5\u8BDD\u65C1\u8FB9\uFF0C\u6709\u4E00\u5C0F\u5757\u5496\u5561\u6E0D\u3002\n\u739B\u62C9\u628A\u5B83\u548C\u5176\u4ED6\u5C0F\u8BF4\u4E00\u8D77\u6253\u5305\uFF0C\u53C8\u5728\u4E66\u91CC\u653E\u8FDB\u4E00\u672C\u7B14\u8BB0\u672C\u3001\u4E00\u4E2A\u7535\u8BDD\u53F7\u7801\uFF0C\u8FD8\u6709\u8FD9\u6837\u51E0\u53E5\u8BDD\uFF1A\n\u5348\u591C\u8FC7\u540E\u3002\u8BF7\u5979\u7559\u4E0B\u3002"

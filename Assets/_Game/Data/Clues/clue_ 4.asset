@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClueDefinition
   clue_index: 104
   clue_type: 0
-  phone_message: A flower of courage, blooming for the sun and fading by the sun,
-    simply to back in the radiance of life.
+  phone_message: "\u4E00\u79CD\u5411\u9633\u800C\u751F\uFF0C\u4E5F\u5411\u9633\u800C\u6B7B\u7684\u52C7\u6C14\u4E4B\u82B1\uFF0C\u53EA\u4E3A\u4EAB\u53D7\u751F\u547D\u7684\u5149\u8F89\u3002"
   prerequisite_clue_indices: 67000000
   clue_code: 
   phone_parent_clue_index: 103
