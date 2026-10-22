@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: book_ 9
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 9
-  book_title: The First Line
+  book_title: 'Part II: The First Line'
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 110
   content: This seems to be part of a mystery series. Maybe I should look for the

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: book_ 10
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 10
-  book_title: The Collection
+  book_title: 'Part III : The Collection'
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 111
   content: This seems to be part of a mystery series. Maybe I should look for the

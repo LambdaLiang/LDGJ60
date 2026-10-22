@@ -721,6 +721,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25048359}
   m_CullTransparentMesh: 1
+--- !u!1 &53784412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 53784415}
+  - component: {fileID: 53784414}
+  - component: {fileID: 53784413}
+  m_Layer: 0
+  m_Name: HintArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &53784413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53784412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5d9ef976a6759468e8ccb8467bf610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaTextTrigger
+  textBox: {fileID: 1145346181}
+  dialogueText: {fileID: 463347917}
+  message: Press E to interact
+--- !u!61 &53784414
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53784412}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 1.5067306, y: -0.58434093}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 7.606434, y: 2.5936573}
+  m_EdgeRadius: 0
+--- !u!4 &53784415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53784412}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.74539, y: 0.34712, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &64310120
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +1054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &75678782
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1206,8 +1300,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -264.0396, y: 150.38211}
-  m_SizeDelta: {x: 89.2262, y: 53.1623}
+  m_AnchoredPosition: {x: -302.39902, y: -119.70239}
+  m_SizeDelta: {x: 77.2214, y: 57.9642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95149956
 MonoBehaviour:
@@ -1808,8 +1902,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.8, y: 205.3}
-  m_SizeDelta: {x: 78.6638, y: 30}
+  m_AnchoredPosition: {x: -38.223763, y: -44.5}
+  m_SizeDelta: {x: 78.6638, y: 59.1524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155999732
 MonoBehaviour:
@@ -2153,7 +2247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Collection
+  m_text: 'Part I: The Extra Page'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -3163,7 +3257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &338428068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3821,13 +3915,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 414206536}
-  - {fileID: 997620947}
   m_Father: {fileID: 705109558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -38.420273, y: -45.00358}
-  m_SizeDelta: {x: 86.0071, y: 56.8405}
+  m_AnchoredPosition: {x: -15.9246, y: 208.7}
+  m_SizeDelta: {x: 86.0071, y: 33.9913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420286559
 MonoBehaviour:
@@ -5587,6 +5680,7 @@ RectTransform:
   - {fileID: 155999731}
   - {fileID: 915641869}
   - {fileID: 420286558}
+  - {fileID: 997620947}
   - {fileID: 1227692452}
   m_Father: {fileID: 1174626578}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7385,7 +7479,7 @@ MonoBehaviour:
         m_MethodName: OpenBook
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: c6c543c5208018b45a897707178b83f2, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 4beeffbcceccecd4899ee6d4e84b9a49, type: 2}
           m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8045,16 +8139,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997620946}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 420286558}
+  m_Father: {fileID: 705109558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -124.26458, y: -66.52021}
+  m_AnchoredPosition: {x: 28.099983, y: -169.26819}
   m_SizeDelta: {x: 39.873, y: 82.138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997620948
@@ -9132,7 +9226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Extra Page
+  m_text: 'Part III: The collection'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -10769,7 +10863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1227692452
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12404,8 +12498,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.8, y: -42.68116}
-  m_SizeDelta: {x: 92.6362, y: 57.9078}
+  m_AnchoredPosition: {x: -84.79857, y: 74.38068}
+  m_SizeDelta: {x: 60.1976, y: 31.1107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370274366
 MonoBehaviour:
@@ -13755,8 +13849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302.5596, y: -119.14567}
-  m_SizeDelta: {x: 82.1684, y: 62.4809}
+  m_AnchoredPosition: {x: -264.5034, y: 150.6}
+  m_SizeDelta: {x: 82.1684, y: 45.6742}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544760654
 MonoBehaviour:
@@ -15059,7 +15153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The First Line
+  m_text: 'Part II: The First Line'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
@@ -15313,8 +15407,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -89.7, y: 74.1}
-  m_SizeDelta: {x: 64.7971, y: 35.6591}
+  m_AnchoredPosition: {x: 72.9512, y: -43.2852}
+  m_SizeDelta: {x: 82.4268, y: 63.1614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708623666
 MonoBehaviour:
@@ -16391,7 +16485,7 @@ GameObject:
   - component: {fileID: 1822666272}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16819,6 +16913,7 @@ MonoBehaviour:
   - I should also look into mountains around here that are popular with hikers or
     cyclists.
   - (Find books in the library that catches your interest!)
+  - (Press E to interact with bookshelves)
   clueProgress: {fileID: 509319680}
   openingClue: {fileID: 11400000, guid: 2fd09ba011e07464793a22ef703fc539, type: 2}
   phoneGroup: {fileID: 1552709606}
@@ -16854,7 +16949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1860645000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18800,7 +18895,7 @@ MonoBehaviour:
         m_MethodName: OpenBook
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 4beeffbcceccecd4899ee6d4e84b9a49, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: c6c543c5208018b45a897707178b83f2, type: 2}
           m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -19677,6 +19772,7 @@ SceneRoots:
   - {fileID: 1366444626}
   - {fileID: 1119652533}
   - {fileID: 1295578739}
+  - {fileID: 53784415}
   - {fileID: 1174626578}
   - {fileID: 176666620}
   - {fileID: 509319681}

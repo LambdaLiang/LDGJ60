@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: book_ 8
   m_EditorClassIdentifier: Assembly-CSharp::BookDefinition
   book_index: 8
-  book_title: The Extra Page
+  book_title: 'Part I: The Extra Page'
   book_color: {r: 1, g: 1, b: 1, a: 1}
   book_clue_index: 109
   content: 
