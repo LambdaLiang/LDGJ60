@@ -1936,7 +1936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &172236332
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4627,7 +4627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &563634391
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5569,7 +5569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &705109558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10182,13 +10182,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1552709608}
   - {fileID: 705109558}
   - {fileID: 1321594803}
   - {fileID: 172236332}
   - {fileID: 563634391}
   - {fileID: 1467089486}
   - {fileID: 338827586}
-  - {fileID: 1552709608}
   - {fileID: 1145346182}
   - {fileID: 1777579717}
   - {fileID: 1229530023}
@@ -10848,7 +10848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1229530023
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11903,7 +11903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1321594803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13090,7 +13090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1467089486
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18621,7 +18621,7 @@ MonoBehaviour:
     Close bookshelf'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -8735703076159449103, guid: 13c5b352bd7d3da419a3363a1d098313, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
